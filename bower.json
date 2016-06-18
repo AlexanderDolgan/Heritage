@@ -1,0 +1,23 @@
+{
+  "name": "Heritage",
+  "homepage": "https://github.com/AlexanderDolgan/Heritage",
+  "authors": [
+    "Alexander Dolgan <5704737@gmail.com>"
+  ],
+  "description": "site real estate Heritage",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.*",
+    "foundation-sites": "^6.2.3"
+  }
+}
