@@ -1,19 +1,19 @@
 'use strict';
 
-var gulp = require ('gulp'),
-    watch = require ('gulp-watch'),
-    prefixer = require ('gulp-autoprefixer'),
-    cleancss = require ('gulp-clean-css'),
-    uglify = require ('gulp-uglify'),
-    imagemin = require ('gulp-imagemin'),
-    plumber = require ('gulp-plumber'),
-    rigger = require ('gulp-rigger'),
-    sass = require ('gulp-sass'),
-    sourcemaps = require ('gulp-sourcemaps'),
-    spritesmith = require ('spritesmith'),
-    pngquant = require ('imagemin-pngquant'),
+var gulp = require('gulp'),
+    watch = require('gulp-watch'),
+    prefixer = require('gulp-autoprefixer'),
+    cleancss = require('gulp-clean-css'),
+    uglify = require('gulp-uglify'),
+    imagemin = require('gulp-imagemin'),
+    plumber = require('gulp-plumber'),
+    rigger = require('gulp-rigger'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    spritesmith = require('spritesmith'),
+    pngquant = require('imagemin-pngquant'),
     rimraf = require('rimraf'),
-    graceful = require ('graceful-fs'),
+    graceful = require('graceful-fs'),
     browserSync = require("browser-sync"),
     reload = browserSync.reload;
 
@@ -24,10 +24,10 @@ var path = {
         img: 'build/img/',
         html: 'build/',
         js: 'build/js/',
-        css: 'build/style/'
+        css: 'build/style'
     },
     //source paths
-    src : {
+    src: {
         fonts: 'src/fonts/**/*.*',
         img: 'src/img/**/*.*',
         html: 'src/*.html',
@@ -35,7 +35,7 @@ var path = {
         css: 'src/style/main.scss'
     },
     //whatcher paths
-    watch : {
+    watch: {
         fonts: 'src/fonts/**/*.*',
         img: 'src/img/**/*.*',
         html: 'src/**/*.html',
@@ -44,6 +44,7 @@ var path = {
     }
 };
 
+//config for web server
 var config = {
     server: {
         baseDir: "./build"
@@ -54,9 +55,85 @@ var config = {
     logPrefix: "heritage"
 };
 
-gulp.task('html:build', function(){
+gulp.task('html:build', function () {
     gulp.src(path.src.html)
         .pipe(rigger())
         .pipe(gulp.dest(path.build.html))
         .pipe(reload({stream: true}));
 });
+
+gulp.task('js:build', function () {
+    gulp.src(path.src.js)
+        .pipe(sourcemaps.init())
+        .pipe(rigger())
+        .pipe(uglify())
+        .pipe(sourcemaps.write('../js'))
+        .pipe(gulp.dest(path.build.js))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task('style:build', function () {
+    gulp.src(path.src.css)
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(rigger())
+        .pipe(prefixer())
+        .pipe(cleancss())
+        .pipe(sourcemaps.write('../style'))
+        .pipe(gulp.dest(path.build.css))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task('image:build', function() {
+    gulp.src(path.src.img)
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()],
+            interlaced: true
+        }))
+        .pipe(gulp.dest(path.build.img))
+        .pipe(reload({stream: true}));
+});
+
+gulp.task ('fonts:build', function() {
+   gulp.src(path.src.fonts)
+       .pipe(gulp.dest(path.build.fonts))
+});
+
+gulp.task ('build', [
+    'html:build',
+    'js:build',
+    'style:build',
+    'image:build',
+    'fonts:build'
+]);
+
+gulp.task('watch', function(){
+    watch([path.watch.html], function(event, cb) {
+        gulp.start('html:build');
+    });
+    watch([path.watch.css], function(event, cb) {
+        gulp.start('style:build');
+    });
+    watch([path.watch.js], function(event, cb) {
+        gulp.start('js:build');
+    });
+    watch([path.watch.img], function(event, cb) {
+        gulp.start('image:build');
+    });
+    watch([path.watch.fonts], function(event, cb) {
+        gulp.start('fonts:build');
+    });
+
+});
+
+gulp.task('webserver', function () {
+    browserSync(config);
+});
+
+gulp.task('clean', function (cb) {
+    rimraf(path.clean, cb);
+});
+
+gulp.task('default', ['build', 'webserver', 'watch']);

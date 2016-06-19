@@ -1,3 +1,12 @@
-/**
- * Created by sputnik on 18/06/16.
+/*
+ * Third party
  */
+
+//= ../../bower_components/jquery/dist/jquery.js
+
+
+/*
+ * Custom
+ */
+
+//= partials/app.js
