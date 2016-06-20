@@ -25,6 +25,7 @@ var path = {
         img: 'build/img/',
         html: 'build/',
         js: 'build/js/',
+        foundjs:'build/js',
         css: 'build/style'
     },
     //source paths
@@ -33,6 +34,7 @@ var path = {
         img: 'src/img/**/*.*',
         html: 'src/*.html',
         js: 'src/js/main.js',
+        foundjs: '../bower_components/foundation-sites/js',
         css: 'src/style/*.scss'
     },
     //whatcher paths
@@ -46,7 +48,7 @@ var path = {
     clean: './build'
 };
 
-//config for web server
+//config for the web server
 var config = {
     server: {
         baseDir: "./build"
@@ -74,6 +76,8 @@ gulp.task('js:build', function () {
         .pipe(gulp.dest(path.build.js))
         .pipe(reload({stream: true}));
 });
+
+//
 
 gulp.task('style:build', function () {
     gulp.src(path.src.css)
