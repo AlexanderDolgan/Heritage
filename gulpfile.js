@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     spritesmith = require('spritesmith'),
     pngquant = require('imagemin-pngquant'),
+    rename = require('gulp-rename'),
     rimraf = require('rimraf'),
     graceful = require('graceful-fs'),
     browserSync = require("browser-sync"),
@@ -32,7 +33,7 @@ var path = {
         img: 'src/img/**/*.*',
         html: 'src/*.html',
         js: 'src/js/main.js',
-        css: 'src/style/main.scss'
+        css: 'src/style/*.scss'
     },
     //whatcher paths
     watch: {
@@ -41,7 +42,8 @@ var path = {
         html: 'src/**/*.html',
         js: 'src/js/**/*.js',
         css: 'src/style/**/*.scss'
-    }
+    },
+    clean: './build'
 };
 
 //config for web server
@@ -66,6 +68,7 @@ gulp.task('js:build', function () {
     gulp.src(path.src.js)
         .pipe(sourcemaps.init())
         .pipe(rigger())
+        .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(sourcemaps.write('../js'))
         .pipe(gulp.dest(path.build.js))
@@ -75,9 +78,13 @@ gulp.task('js:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.css)
         .pipe(sourcemaps.init())
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(rigger())
-        .pipe(prefixer())
+        .pipe(prefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(rename({suffix: '.min'}))
         .pipe(cleancss())
         .pipe(sourcemaps.write('../style'))
         .pipe(gulp.dest(path.build.css))
