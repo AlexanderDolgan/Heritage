@@ -8,5 +8,6 @@
  * Custom
  */
 
-//= partials/what-input.min.js
+
+
 //= partials/app.js

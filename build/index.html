@@ -13,83 +13,65 @@
 
     <!--site header section-->
     <header class="site-header">
-        <!--header top section - logo/header contacts/nav-->
-        <section class="top-bar">
 
+
+        <!-- Start Top Bar -->
+        <div class="top-bar">
             <div class="top-bar-left">
-                <div class="logo">
-                    <img src="" alt="">
-                </div>
+                <img src="#" alt="logo">
             </div>
-
             <div class="top-bar-right">
-                <div class="site-header-contacts">
-                    <p>127 Rue de Mühlenbach L.2168 Luxembourg</p>
-
-                    <p>info@heritageproperties.lu</p>
-
-                    <p>Call us: +352 (0) 2678 2626</p>
-                </div>
-
-                <ul class="site-header-nav">
-                    <li>Home</li>
-                    <li>Investment</li>
-                    <li>Our structure</li>
-                    <li>Investors</li>
-                    <li>Contacts</li>
+                <ul class="menu">
+                    <li><a href="#">Three</a></li>
+                    <li><a href="#">Four</a></li>
+                    <li><a href="#">Five</a></li>
+                    <li><a href="#">Six</a></li>
                 </ul>
             </div>
-        </section>
-
-        <!--Hero Text header-->
-        <div class="site-header-title">
-            <p class="title-top">Real Estate</p>
-
-            <p class="title-bot">Venture Capital</p>
-            <img src="" alt="">
         </div>
+        <!-- End Top Bar -->
+
+        <!--Hero orbital slider / centered text-->
+
+        <!-- Start Orbit -->
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+            <ul class="orbit-container">
+                <li class="is-active orbit-slide">
+                    <img class="orbit-image" src="./img/assets/header_slider_1.jpg" alt="Space1">
+                </li>
+                <li class="orbit-slide">
+                    <img class="orbit-image" src="./img/assets/header_slider_2.jpg" alt="Space2">
+                </li>
+                <li class="orbit-slide">
+                    <img class="orbit-image" src="./img/assets/header_slider_1.jpg" alt="Space3">
+                </li>
+                <li class="orbit-slide">
+                    <img class="orbit-image" src="./img/assets/header_slider_2.jpg" alt="Space4">
+                </li>
+            </ul>
+        </div>
+        <!-- End Orbit -->
+
 
     </header>
 
-    <ul class="vertical menu" data-accordion-menu>
-        <li>
-            <a href="#">Item 1</a>
-            <ul class="menu vertical nested is-active">
-                <li>
-                    <a href="#">Item 1A</a>
-                    <ul class="menu vertical nested">
-                        <li><a href="#">Item 1Ai</a></li>
-                        <li><a href="#">Item 1Aii</a></li>
-                        <li><a href="#">Item 1Aiii</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Item 1B</a></li>
-                <li><a href="#">Item 1C</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">Item 2</a>
-            <ul class="menu vertical nested">
-                <li><a href="#">Item 2A</a></li>
-                <li><a href="#">Item 2B</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Item 3</a></li>
-    </ul>
 
-    <!--main site section-->
-    <main class="site-main">
+<!--main site section-->
+<main class="site-main">
 
-    </main>
+</main>
 
-    <!--footer site section-->
-    <footer class="site-footer">
 
-    </footer>
+<!--footer site section-->
+<footer class="site-footer">
+
+</footer>
 </section>
 
 <script type="text/javascript" src="js/main.min.js"></script>
-<script type="text/javascript" src="js/foundation.min.js"></script>
-
+<script type="text/javascript" src="js/foundation.js"></script>
+<script>
+    $(document).foundation();
+</script>
 </body>
 </html>

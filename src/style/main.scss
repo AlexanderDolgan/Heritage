@@ -2,6 +2,9 @@
 * Third Party
 */
 @import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/motion-ui/motion-ui";
+
+@import "partials/settings";
 
 //Zurb Foundation
 @import "../../bower_components/foundation-sites/scss/foundation";
@@ -9,8 +12,8 @@
 // Select the components you want to use
 @include foundation-global-styles;
 @include foundation-grid;
-//@include foundation-flex-classes;
-//@include foundation-flex-grid;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
@@ -50,5 +53,6 @@
 /*
 * Custom
 */
+
+
 @import "partials/app";
-@import "partials/settings";

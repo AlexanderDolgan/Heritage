@@ -27,16 +27,16 @@ var path = {
         img: 'build/img/',
         html: 'build/',
         js: 'build/js/',
-        css: 'build/style'
+        css: 'build/style',
+        foundjs: 'build/js/'
     },
     //source paths
     src: {
         fonts: 'src/fonts/**/*.*',
         img: 'src/img/**/*.*',
         html: 'src/*.html',
-        js: 'src/js/main.js',
+        js: 'src/js/*.js',
         foundjs: 'bower_components/foundation-sites/js/foundation.',
-        found: 'build/js/',
         css: 'src/style/*.scss'
     },
     //whatcher paths
@@ -80,44 +80,46 @@ gulp.task('js:build', function () {
         .pipe(reload({stream: true}));
 });
 
-////Foundation JS concat and uglify
-gulp.task('foundjs:build', function() {
-   gulp.src('src/js/foundation.min.js')
-       .pipe(gulp.dest(path.build.js))
-       .pipe(reload({stream: true}))
-});
+// JSHint, concat, and minify Foundation JavaScript
+gulp.task('foundation-js:build', function () {
+    return gulp.src([
 
-//gulp.task('foundjs:build', function () {
-//    gulp.src([
-//        //foundation core
-//        path.src.foundjs + 'core.js',
-//        path.src.foundjs + 'util.*.js'//,
-//
-//        //foundation components
-//        //path.src.foundjs + 'abide.js',
-//        //path.src.foundjs + 'accordion.js',
-//        //path.src.foundjs + 'accordionMenu.js',
-//        //path.src.foundjs + 'drilldown.js',
-//        //path.src.foundjs + 'dropdown.js',
-//        //path.src.foundjs + 'dropdownMenu.js',
-//        //path.src.foundjs + 'equalizer.js',
-//        //path.src.foundjs + 'interchange.js',
-//        //path.src.foundjs + 'magellan.js',
-//        //path.src.foundjs + 'offcanvas.js',
-//        //path.src.foundjs + 'orbit.js',
-//        //path.src.foundjs + 'responsiveMenu.js',
-//        //path.src.foundjs + 'responsiveToggle.js',
-//        //path.src.foundjs + 'reveal.js',
-//        //path.src.foundjs + 'slider.js',
-//        //path.src.foundjs + 'sticky.js',
-//        //path.src.foundjs + 'tabs.js',
-//        //path.src.foundjs + 'toggler.js',
-//        //path.src.foundjs + 'tooltip.js'
-//    ])
-//        .pipe(concat('foundation.js'))
-//        .pipe(gulp.dest(path.src.found))
-//        .pipe(reload({stream: true}));
-//});
+            // Foundation core - needed if you want to use any of the components below
+            path.src.foundjs + 'core.js',
+            path.src.foundjs + 'util.*.js',
+
+            // Pick the components you need in your project
+            path.src.foundjs + 'abide.js',
+            path.src.foundjs + 'accordion.js',
+            path.src.foundjs + 'accordionMenu.js',
+            path.src.foundjs + 'drilldown.js',
+            path.src.foundjs + 'dropdown.js',
+            path.src.foundjs + 'dropdownMenu.js',
+            path.src.foundjs + 'equalizer.js',
+            path.src.foundjs + 'interchange.js',
+            path.src.foundjs + 'magellan.js',
+            path.src.foundjs + 'offcanvas.js',
+            path.src.foundjs + 'orbit.js',
+            path.src.foundjs + 'responsiveMenu.js',
+            path.src.foundjs + 'responsiveToggle.js',
+            path.src.foundjs + 'reveal.js',
+            path.src.foundjs + 'slider.js',
+            path.src.foundjs + 'sticky.js',
+            path.src.foundjs + 'tabs.js',
+            path.src.foundjs + 'toggler.js',
+            path.src.foundjs + 'tooltip.js'
+        ])
+        .pipe(babel({
+            compact: true
+        }))
+        .pipe(sourcemaps.init())
+        .pipe(concat('foundation.js'))
+        .pipe(gulp.dest(path.build.foundjs))
+        .pipe(rename({suffix: '.min'}))
+        //.pipe(uglify())//dosesn't work =/
+        .pipe(sourcemaps.write(path.build.foundjs)) // Creates sourcemap for minified Foundation JS
+        .pipe(gulp.dest('path.build.foundjs'))
+});
 
 gulp.task('style:build', function () {
     gulp.src(path.src.css)
@@ -158,7 +160,7 @@ gulp.task('build', [
     'style:build',
     'image:build',
     'fonts:build',
-    'foundjs:build'
+    'foundation-js:build'
 ]);
 
 gulp.task('watch', function () {
