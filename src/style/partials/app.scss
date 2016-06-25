@@ -2,12 +2,45 @@
 /***** SITE HEADER *****/
 /***********************/
 
-.top-bar {
+//Logo
+.top-bar-left {
+  text-align: center;
+}
 
+.header-logo {
+  width: 200px;
+  margin: 1em 0;
+}
+
+//Slider
+.orbit {
+  position: relative
 }
 
 .orbit-container {
   max-height: 900px;
   height: auto !important;
   overflow: hidden;
+}
+
+// hero header-title
+
+.header-title {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 11;
+
+  color: $white;
+}
+
+.header-title h1 {
+  text-transform: uppercase;
+}
+
+.header-title img {
+  width: 100px;
+
 }
