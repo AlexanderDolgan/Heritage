@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'PTSerif55';
+  src: url('../fonts/ptf55f-webfont.woff');
+}
+
+@font-face {
+  font-family: 'PTSerif56';
+  src: url('../fonts/ptf56f-webfont.woff');
+}
+
+@font-face {
+  font-family: 'PTSerif75';
+  src: url('../fonts/ptf75f-webfont.woff');
+}
+
 /*
 * Third Party
 */
@@ -56,3 +71,6 @@
 
 
 @import "partials/app";
+
+//media min-width: 640
+@import "partials/medium";

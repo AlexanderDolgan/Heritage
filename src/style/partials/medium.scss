@@ -1,0 +1,11 @@
+@media (min-width: 640px) {
+  .top-bar {
+    display: block;
+    position: absolute;
+    z-index: 12;
+
+    width: 100%;
+    padding-top: 1em;
+    background-color: rgba(0,0,0,.5);
+  }
+}

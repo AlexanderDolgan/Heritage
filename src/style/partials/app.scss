@@ -2,17 +2,47 @@
 /***** SITE HEADER *****/
 /***********************/
 
-//Logo
-.top-bar-left {
-  text-align: center;
+//Top bar
+
+.title-bar {
+  background-color: $secondary-color;
 }
 
-.header-logo {
-  width: 200px;
-  margin: 1em 0;
+.top-bar {
+  background-color: $secondary-color;
 }
 
-//Slider
+.top-bar ul {
+  background-color: inherit;
+}
+
+.toggle-btn {
+  padding-left: 30px;
+}
+
+//Top main nav
+.header-nav li a {
+  width: 100%;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header-nav li a:hover,
+.header-nav li a:focus,
+.header-nav li a:active {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: $primary-color;
+}
+
+//Top contact
+
+.top-contacts li a {
+  font-size: .9em;
+}
+
+//Orbital
 .orbit {
   position: relative
 }
@@ -23,7 +53,7 @@
   overflow: hidden;
 }
 
-// hero header-title
+//Hero title
 
 .header-title {
   position: absolute;
@@ -32,7 +62,8 @@
   transform: translateY(-50%);
   text-align: center;
   z-index: 11;
-
+  padding: 1em 0;
+  background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,.5) 80% , rgba(255,255,255,0));
   color: $white;
 }
 
@@ -41,6 +72,72 @@
 }
 
 .header-title img {
-  width: 100px;
+  width: 60vw;
+  max-width: 500px;
+}
 
+
+/***********************/
+/***MAIN SITE SECTION***/
+/***********************/
+
+//Article block
+.site-main {
+  padding: 1em;
+}
+
+article {
+  padding: 1.5em 0;
+}
+
+.article-header h4{
+  color: $header-small-font-color;
+}
+
+hgroup::after {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 1px;
+  margin: 1.5em 0;
+  background-color: $primary-color;
+}
+
+/***********************/
+/*********FOOTER********/
+/***********************/
+
+//Contacts row
+.site-footer {
+  color: $white;
+  background-color: $black;
+  margin: 1.5em 0;
+  padding: 3.5rem 1rem;
+  text-align: center;
+}
+
+.site-footer a {
+  color: $white;
+}
+
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active {
+  text-decoration: underline;
+}
+
+.footer-contact-column {
+  margin-top: 2rem;
+}
+
+.footer-contact-column ul>li:first-child {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: $primary-color;
+}
+
+//Terms and Conditions row
+.footer-terms {
+  font-size: .6rem;
+  margin-top: 3rem;
 }
