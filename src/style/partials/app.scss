@@ -4,12 +4,13 @@
 
 //Top bar
 
-.title-bar {
-  background-color: $secondary-color;
-}
-
 .top-bar {
-  background-color: $secondary-color;
+  display: block;
+  position: absolute;
+  z-index: 12;
+
+  width: 100%;
+  background-color: rgba(0,0,0,.75);
 }
 
 .top-bar ul {
@@ -21,6 +22,11 @@
 }
 
 //Top main nav
+.header-nav {
+  padding: .6rem;
+  vertical-align: middle;
+}
+
 .header-nav li a {
   width: 100%;
   font-size: 1.2em;
@@ -34,12 +40,6 @@
   text-transform: uppercase;
   text-decoration: underline;
   color: $primary-color;
-}
-
-//Top contact
-
-.top-contacts li a {
-  font-size: .9em;
 }
 
 //Orbital
@@ -57,7 +57,7 @@
 .hero-for-small {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background-image: url("../img/assets/header_mob.jpg");
   background-position: center;
   background-size: cover;
@@ -73,7 +73,7 @@
   text-align: center;
   z-index: 11;
   padding: 1em 0;
-  background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,.5) 80% , rgba(255,255,255,0));
+  //background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,.5) 80% , rgba(255,255,255,0));
   color: $white;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .header-title img {
-  width: 60vw;
+  width: 80vw;
   max-width: 500px;
 }
 
@@ -104,15 +104,6 @@ article {
   color: $header-small-font-color;
 }
 
-hgroup::after {
-  content: '';
-  display: block;
-  width: 80%;
-  height: 1px;
-  margin: 1.5em 0;
-  background-color: $primary-color;
-}
-
 /***********************/
 /*********FOOTER********/
 /***********************/
@@ -121,7 +112,6 @@ hgroup::after {
 .site-footer {
   color: $white;
   background-color: $black;
-  margin: 1.5em 0;
   padding: 3.5rem 1rem;
   text-align: center;
 }
@@ -138,11 +128,11 @@ hgroup::after {
 
 .footer-contact-column {
   margin-top: 2rem;
+  @include grid-col;
 }
 
 .footer-contact-column ul>li:first-child {
-  font-size: 1.2rem;
-  text-decoration: underline;
+  font-family: $body-font-family-bold;
   color: $primary-color;
 }
 
@@ -150,4 +140,9 @@ hgroup::after {
 .footer-terms {
   font-size: .6rem;
   margin-top: 3rem;
+  @include grid-row;
+}
+
+.footer-terms h6 {
+  text-decoration: underline;
 }

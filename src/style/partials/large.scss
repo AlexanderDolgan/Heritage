@@ -1,4 +1,4 @@
-@include breakpoint(medium) {
+@include breakpoint(large) {
   /***********************/
   /***** SITE HEADER *****/
   /***********************/
@@ -11,8 +11,8 @@
   }
 
   article {
-    @include grid-col-size(10);
-    @include grid-col-pos(1);
+    @include grid-col-size(5);
+    @include grid-col-pos(7);
   }
 
   .article-header::after {

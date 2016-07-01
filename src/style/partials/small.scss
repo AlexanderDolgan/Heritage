@@ -1,25 +1,27 @@
-@include breakpoint(medium) {
+/* Small only */
+@include breakpoint(small only) {
   /***********************/
   /***** SITE HEADER *****/
   /***********************/
 
+  //Top Bar
+  .title-bar {
+    background-color: $secondary-color;
+  }
+
+  .top-bar {
+    background-color: $secondary-color;
+  }
+
   /***********************/
   /***MAIN SITE SECTION***/
   /***********************/
-  .info-block {
-    @include grid-row();
-  }
-
-  article {
-    @include grid-col-size(10);
-    @include grid-col-pos(1);
-  }
 
   .article-header::after {
     content: '';
     display: block;
     width: 80%;
-    height: 2px;
+    height: 1px;
     margin: 1.5em 0;
     background-color: $primary-color;
   }
@@ -28,8 +30,6 @@
   /*********FOOTER********/
   /***********************/
 
-  .footer-contact-column {
-    @include grid-column(4);
-  }
+  //Contacts row
 
 }

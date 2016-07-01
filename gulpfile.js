@@ -17,6 +17,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     rimraf = require('rimraf'),
     graceful = require('graceful-fs'),
+    gutil = require('gulp-util'),
     browserSync = require("browser-sync"),
     reload = browserSync.reload;
 
@@ -62,6 +63,12 @@ var config = {
     logPrefix: "heritage"
 };
 
+
+function onError(err) {
+    console.log(err);
+    this.emit('end');
+}
+
 gulp.task('html:build', function () {
     gulp.src(path.src.html)
         .pipe(rigger())
@@ -77,6 +84,7 @@ gulp.task('js:build', function () {
         .pipe(uglify())  //throw error when connect foundation core js files
         .pipe(sourcemaps.write('../js'))
         .pipe(gulp.dest(path.build.js))
+        .on('error', function(err) { gutil.log(err.message); })
         .pipe(reload({stream: true}));
 });
 
@@ -134,6 +142,7 @@ gulp.task('style:build', function () {
         .pipe(cleancss())
         .pipe(sourcemaps.write('../style'))
         .pipe(gulp.dest(path.build.css))
+        .on('error', function(err) { gutil.log(err.message); })
         .pipe(reload({stream: true}));
 });
 
