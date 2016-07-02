@@ -11,8 +11,10 @@
   }
 
   article {
-    @include grid-col-size(5);
-    @include grid-col-pos(7);
+    @include grid-col-size(4);
+    @include grid-col-pos(6);
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .article-header::after {
@@ -22,6 +24,11 @@
     height: 2px;
     margin: 1.5em 0;
     background-color: $primary-color;
+  }
+
+  .info-block {
+    background-image: url(../img/assets/info-block-bg-1.jpg);
+    background-size: cover;
   }
 
   /***********************/
