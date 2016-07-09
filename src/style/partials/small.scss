@@ -17,18 +17,13 @@
   /***MAIN SITE SECTION***/
   /***********************/
 
-  .article-header::after {
-    content: '';
-    display: block;
-    width: 80%;
-    height: 1px;
-    margin: 1.5em 0;
-    background-color: $primary-color;
-  }
-
   /***********************/
   /*********FOOTER********/
   /***********************/
 
+  .footer-contact-item h3,
+  .footer-contact-item h4 {
+    margin-top: 2rem;
+  }
 
 }

@@ -1,0 +1,153 @@
+<div class="info-block / columns / large-12">
+    <article>
+        <hgroup class="article-header">
+            <h1>Who is Heritage Properties Fund</h1>
+            <h4>Sed arcu. Cras consequat.</h4>
+        </hgroup>
+
+        <!--Article plain text-->
+        <div class="article-p">
+            <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in,
+                diam.</p>
+
+            <p>Sed arcu. Cras consequat.</p>
+
+            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu
+                erat.Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+
+            <p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem
+                tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+
+            <p>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate,
+                nunc.</p>
+        </div>
+        <!--End Article plain text-->
+
+    </article>
+</div>
+
+<!--footer site section-->
+<footer class="site-footer">
+    <!--footer contacts-->
+    <div class="footer-contacts">
+        <h1>Contacts</h1>
+
+        <div class="footer-contact-column">
+            <ul class="vertical / menu">
+                <li>Luxembourg / Head Office</li>
+                <li><a href="#">127 Rue de Mühlenbach L.2168 Luxembourg</a></li>
+                <li><a href="#">info@heritageproperties.lu</a></li>
+                <li><a href="#">CALL US: +352 (0) 2678 2626</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact-column">
+            <ul class="vertical / menu">
+                <li>Paris</li>
+                <li><a href="#">127 Rue de Mühlenbach L.2168 Luxembourg</a></li>
+                <li><a href="#">info@heritageproperties.lu</a></li>
+                <li><a href="#">CALL US: +352 (0) 2678 2626</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact-column">
+            <ul class="vertical / menu">
+                <li>Dusseldorf</li>
+                <li><a href="#">127 Rue de Mühlenbach L.2168 Luxembourg</a></li>
+                <li><a href="#">info@heritageproperties.lu</a></li>
+                <li><a href="#">CALL US: +352 (0) 2678 2626</a></li>
+            </ul>
+        </div>
+        <!--End Contacts row-->
+    </div>
+    <!--End nav contacts row-->
+
+    <!--Terms and Conditions row-->
+    <div class="footer-terms" data-responsive-toggle="footer-terms">
+        <h6 data-toggle>TERMS & CONDITIONS</h6>
+
+        <div id="footer-terms">
+            <div class="right-terms">
+                <p>This document or websitend liusxuirsysrueaeldesatantedasaspeptsro ( “Heritage Properties Fund” ) and
+                    their respective business activities. Please note that Directors and employees of projects) with
+                    Heritage Properties Fund in, Luxembourg, Germany, France and Heritage Properties may also work for
+                    Heritage Properties. With an unrivalled store of experience, a knowledgeable employee base with This
+                    document or website
+                    is not directed at, or intended for, retail clients. It is not intended for distribution to, or use
+                    by, any person or entity in any jurisdiction or country where such distribution or use would be
+                    contrary to local law or regulation.</p>
+
+                <p>Any material contained in this document or website has been prepared for informational purposes only
+                    without regard to any particular user's investment objectives, financial situation, or means, and
+                    Heritage Properties is not soliciting any action based upon it. This material is not to be construed
+                    as a recommendation; or an offer to buy or sell; or the solicitation of an offer to buy or sell any
+                    security, financial product, or instrument. Although this material is based upon information that
+                    Heritage Properties considers reliable and endeavors to keep current, Heritage Properties has not
+                    verified this information and does not represent that this material is accurate, current, or
+                    complete and it should not be relied upon as such.</p>
+            </div>
+            <div class="left-terms">
+                <p>The fact that we have made the data and services provided on this document or website available to
+                    you constitutes neither a recommendation that you should enter into a particular transaction nor a
+                    representation that any product described on this document or website is suitable or appropriate for
+                    you. Many of the products described on this document or website involve significant risks, and you
+                    should not enter into any transactions unless you have fully understood all such risks and has
+                    independently determined that such transactions are appropriate for you. Home News About Heritage
+                    Properties Countries About us We shall have no liability, contingent or otherwise, to you or to
+                    third parties, or any responsibility whatsoever, for the failure of any connection or communication
+                    service to provide or maintain your access to this service, or for any interruption or disruption of
+                    such access or any erroneous communication between us and you, regardless of whether the connection
+                    or communication service is provided by us or a third party service provider. We shall have no
+                    liability, contingent or otherwise, to you or to third parties, for the correctness, quality,
+                    accuracy, timeliness, reliability, performance, continued availability, completeness or delays,
+                    omissions, or interruptions in the delivery of the data and services available on this website or
+                    for any other aspect of the performance of this service or for any failure or delay in the execution
+                    of any transactions through this service. We make no warranty whatsoever to you, express or implied,
+                    regarding the security of the site.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--End Terms and Conditions row-->
+
+</footer>
+
+
+.site-footer {
+@include grid-row();
+color: $white;
+background-color: $black;
+padding: 3.5rem 1rem;
+text-align: center;
+}
+
+.site-footer a {
+color: $white;
+}
+
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer a:active {
+text-decoration: underline;
+}
+
+.footer-contacts {
+@include grid-row();
+}
+
+.footer-contact-column ul>li:first-child {
+font-family: $body-font-family-bold;
+color: $primary-color;
+}
+
+//Terms and Conditions row
+.footer-terms {
+@include grid-row();
+font-size: .6rem;
+padding-top: 3rem;
+}
+
+.footer-terms h6 {
+text-decoration: underline;
+}

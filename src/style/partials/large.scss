@@ -6,37 +6,30 @@
   /***********************/
   /***MAIN SITE SECTION***/
   /***********************/
-  .info-block {
-    @include grid-row();
+
+  .site-main {
+    background-image: url("../img/assets/info-block-bg-1.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-  article {
-    @include grid-col-size(4);
+  .article-content {
+    @include grid-column(5);
     @include grid-col-pos(6);
-    text-align: justify;
-    text-justify: inter-word;
-  }
-
-  .article-header::after {
-    content: '';
-    display: block;
-    width: 80%;
-    height: 2px;
-    margin: 1.5em 0;
-    background-color: $primary-color;
-  }
-
-  .info-block {
-    background-image: url(../img/assets/info-block-bg-1.jpg);
-    background-size: cover;
   }
 
   /***********************/
   /*********FOOTER********/
   /***********************/
 
-  .footer-contact-column {
-    @include grid-column(4);
+  .footer-nav {
+    @include grid-col(3);
+  }
+
+  //footer contacts
+  .footer-contact-item {
+    @include grid-col(3)
   }
 
 }

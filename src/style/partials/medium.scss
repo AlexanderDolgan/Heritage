@@ -6,37 +6,23 @@
   /***********************/
   /***MAIN SITE SECTION***/
   /***********************/
-  .info-block {
-    @include grid-row();
-  }
 
-  article {
+  .article-content {
     @include grid-col-size(8);
     @include grid-col-pos(2);
-  }
-
-  .article-header::after {
-    content: '';
-    display: block;
-    width: 80%;
-    height: 2px;
-    margin: 1.5em 0;
-    background-color: $primary-color;
   }
 
   /***********************/
   /*********FOOTER********/
   /***********************/
 
-  //Terms and Conditions row
-  .footer-contact-column {
-    @include grid-column(4);
+  .footer-nav {
+    @include grid-col(12);
   }
 
-  //footer terms
-  .right-terms,
-  .left-terms {
-    @include grid-column(6);
+  //footer contacts
+  .footer-contact-item {
+    @include grid-col(3)
   }
-
 }
+

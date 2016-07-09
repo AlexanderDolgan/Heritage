@@ -91,70 +91,73 @@
 /***MAIN SITE SECTION***/
 /***********************/
 
-//Article block
 .site-main {
-  padding: 1em;
+  @include grid-row();
+  max-width: 100%;
 }
 
-article {
-  padding: 1.5em 0;
+.article-content {
+  padding: 4rem 1rem;
 }
 
-.info-block {
-  padding: 2em 0;
+.article-hgroup{
+  padding-bottom: 1rem;
 }
 
-article p {
-  margin: 1em 0;
+.article-p {
+  text-align: justify;
 }
 
-.article-header {
-  text-align: left;
+//Article block
+
+.article-content h3 {
+  color: $subheader-color;
 }
 
-.article-header h4{
-  color: $header-small-font-color;
-}
 
 /***********************/
 /*********FOOTER********/
 /***********************/
 
-//Contacts row
 .site-footer {
-  @include grid-row();
-  color: $white;
+  @include grid-col-row();
+  min-width: 100%;
+  padding: 2rem 0;
   background-color: $black;
-  padding: 3.5rem 1rem;
-  text-align: center;
+  color: $white;
 }
 
 .site-footer a {
   color: $white;
 }
 
-.site-footer a:hover,
-.site-footer a:focus,
-.site-footer a:active {
+.footer-content {
+  @include grid-col-row();
+}
+
+.footer-nav {
+  font-size: 100%;
+}
+
+.footer-nav ul li a:hover,
+.footer-nav ul li a:focus,
+.footer-nav ul li a:active{
   text-decoration: underline;
-}
-
-.footer-contacts {
-  @include grid-row();
-}
-
-.footer-contact-column ul>li:first-child {
-  font-family: $body-font-family-bold;
   color: $primary-color;
 }
 
-//Terms and Conditions row
-.footer-terms {
-  @include grid-row();
-  font-size: .6rem;
-  padding-top: 3rem;
+.site-footer .menu li a {
+  padding-left: 0;
 }
 
-.footer-terms h6 {
-  text-decoration: underline;
+.footer-contact-item {
+  font-size: 85%;
+}
+
+.head-office h5{
+  margin-top: -2rem;
+}
+
+.head-office li:nth-child(3) {
+  margin-top: -1rem;
 }
