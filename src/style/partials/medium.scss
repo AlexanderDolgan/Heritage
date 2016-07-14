@@ -16,13 +16,21 @@
   /*********FOOTER********/
   /***********************/
 
-  .footer-nav {
+  .footer-contact-item {
+    font-size: 85%;
+  }
+  .footer-contacts-container {
     @include grid-col(12);
   }
-
-  //footer contacts
-  .footer-contact-item {
-    @include grid-col(3)
+  .footer-contacts-container-header {
+    @include grid-col-row();
   }
+  .footer-contacts-container-content {
+    @include grid-row();
+  }
+  .footer-contact-item {
+    @include grid-col(4)
+  }
+
 }
 

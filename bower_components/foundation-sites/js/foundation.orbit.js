@@ -185,15 +185,15 @@ class Orbit {
           _this.timer[_this.$element.data('clickedOn') ? 'pause' : 'start']();
         });
 
-        if (this.options.pauseOnHover) {
-          this.$element.on('mouseenter.zf.orbit', function() {
-            _this.timer.pause();
-          }).on('mouseleave.zf.orbit', function() {
-            if (!_this.$element.data('clickedOn')) {
-              _this.timer.start();
-            }
-          });
-        }
+        //if (this.options.pauseOnHover) {
+        //  this.$element.on('mouseenter.zf.orbit', function() {
+        //    _this.timer.pause();
+        //  }).on('mouseleave.zf.orbit', function() {
+        //    if (!_this.$element.data('clickedOn')) {
+        //      _this.timer.start();
+        //    }
+        //  });
+        //}
       }
 
       if (this.options.navButtons) {

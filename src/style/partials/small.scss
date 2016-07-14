@@ -21,8 +21,16 @@
   /*********FOOTER********/
   /***********************/
 
+  .site-footer {
+    padding:1rem 0;
+  }
+
   .footer-contact-item h3,
   .footer-contact-item h4 {
+    margin-top: 1rem;
+  }
+
+  .footer-contacts-container {
     margin-top: 2rem;
   }
 

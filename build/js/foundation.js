@@ -1538,7 +1538,16 @@ cb(max);//fire callback with max height dimension.
 //**      Yohai Ararat of Toronto      **
 //***************************************
 if(this.$slides.length>1){if(this.options.swipe){this.$slides.off('swipeleft.zf.orbit swiperight.zf.orbit').on('swipeleft.zf.orbit',function(e){e.preventDefault();_this.changeSlide(true);}).on('swiperight.zf.orbit',function(e){e.preventDefault();_this.changeSlide(false);});}//***************************************
-if(this.options.autoPlay){this.$slides.on('click.zf.orbit',function(){_this.$element.data('clickedOn',_this.$element.data('clickedOn')?false:true);_this.timer[_this.$element.data('clickedOn')?'pause':'start']();});if(this.options.pauseOnHover){this.$element.on('mouseenter.zf.orbit',function(){_this.timer.pause();}).on('mouseleave.zf.orbit',function(){if(!_this.$element.data('clickedOn')){_this.timer.start();}});}}if(this.options.navButtons){var $controls=this.$element.find(`.${this.options.nextClass}, .${this.options.prevClass}`);$controls.attr('tabindex',0)//also need to handle enter/return and spacebar key presses
+if(this.options.autoPlay){this.$slides.on('click.zf.orbit',function(){_this.$element.data('clickedOn',_this.$element.data('clickedOn')?false:true);_this.timer[_this.$element.data('clickedOn')?'pause':'start']();});//if (this.options.pauseOnHover) {
+//  this.$element.on('mouseenter.zf.orbit', function() {
+//    _this.timer.pause();
+//  }).on('mouseleave.zf.orbit', function() {
+//    if (!_this.$element.data('clickedOn')) {
+//      _this.timer.start();
+//    }
+//  });
+//}
+}if(this.options.navButtons){var $controls=this.$element.find(`.${this.options.nextClass}, .${this.options.prevClass}`);$controls.attr('tabindex',0)//also need to handle enter/return and spacebar key presses
 .on('click.zf.orbit touchend.zf.orbit',function(e){e.preventDefault();_this.changeSlide($(this).hasClass(_this.options.nextClass));});}if(this.options.bullets){this.$bullets.on('click.zf.orbit touchend.zf.orbit',function(){if(/is-active/g.test(this.className)){return false;}//if this is active, kick out of function.
 var idx=$(this).data('slide'),ltr=idx>_this.$slides.filter('.is-active').data('slide'),$slide=_this.$slides.eq(idx);_this.changeSlide(ltr,$slide,idx);});}this.$wrapper.add(this.$bullets).on('keydown.zf.orbit',function(e){// handle keyboard event with keyboard util
 Foundation.Keyboard.handleKey(e,'Orbit',{next:function(){_this.changeSlide(true);},previous:function(){_this.changeSlide(false);},handled:function(){// if bullet is focused, make sure focus moves

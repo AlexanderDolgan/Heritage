@@ -97,14 +97,20 @@
 }
 
 .article-content {
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
+}
+
+.article-aboutlist li {
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .article-hgroup{
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
-.article-p {
+.article {
   text-align: justify;
 }
 
@@ -122,7 +128,7 @@
 .site-footer {
   @include grid-col-row();
   min-width: 100%;
-  padding: 2rem 0;
+  padding: 5rem 0 0 0;
   background-color: $black;
   color: $white;
 }
@@ -130,9 +136,17 @@
 .site-footer a {
   color: $white;
 }
+.site-footer h3 {
+  padding-bottom: 2rem;
+}
+
+.site-footer .menu li a {
+  padding-left: 0;
+}
 
 .footer-content {
-  @include grid-col-row();
+  @include grid-row;
+  padding:0 1rem;
 }
 
 .footer-nav {
@@ -146,18 +160,19 @@
   color: $primary-color;
 }
 
-.site-footer .menu li a {
-  padding-left: 0;
+.footer-terms {
+  padding-top: 3rem;
 }
 
-.footer-contact-item {
-  font-size: 85%;
+.term-header {
+  margin-top: 2rem;
+  text-align: center;
 }
 
-.head-office h5{
-  margin-top: -2rem;
+.terms-text {
+  text-align: justify;
 }
 
-.head-office li:nth-child(3) {
-  margin-top: -1rem;
+.terms-text {
+  font-size: .75rem;
 }
