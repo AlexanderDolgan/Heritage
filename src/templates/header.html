@@ -5,46 +5,54 @@
     <meta name="viewport" content="width=device-width, initial, scale=1">
     <title>Heritage properties</title>
     <link rel="stylesheet" href="style/main.min.css">
-
+    <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css">
 </head>
 <body>
 
 <!--site header section-->
 <header class="site-header">
-    <!--header top section - logo/header contacts/nav-->
-    <section class="top-bar">
 
-        <div class="top-bar-left">
-            <div class="logo">
-                <img src="" alt="">
-            </div>
+    <!-- Start Top Bar -->
+    <div class="top-nav">
+        <div class="title-bar" data-responsive-toggle="header-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle>
+                <div class="title-bar-title"><span class="toggle-btn">Sections</span></div>
+            </button>
+
         </div>
 
-        <div class="top-bar-right">
-            <div class="site-header-contacts">
-                <p>127 Rue de Mühlenbach L.2168 Luxembourg</p>
+        <div class="top-bar" id="header-menu">
 
-                <p>info@heritageproperties.lu</p>
-
-                <p>Call us: +352 (0) 2678 2626</p>
+            <div class="logo-text">
+                <a href="index.html"><img src="img/assets/logo-text.svg" alt="logo-text"></a>
             </div>
+            <!--Top main nav-->
+            <div class="menu-centered / columns / small-8">
+                <ul class="vertical / menu / medium-horizontal / header-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="investment.html">Investment</a></li>
+                    <li><a href="structure.html">Our Structure</a></li>
+                    <li><a href="investors.html">Investors</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <!--End Top main nav-->
 
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Investment</a></li>
-                <li><a href="#">Our structure</a></li>
-                <li><a href="#">Investors</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
         </div>
-    </section>
 
-    <!--Hero Text header-->
-    <div class="site-header-title">
-        <p class="title-top">Real Estate</p>
-
-        <p class="title-bot">Venture Capital</p>
-        <img src="" alt="">
     </div>
+    <!-- End Top Bar -->
+
+    <!--Hero for small screen-->
+    <div class="hero-for-small / show-for-small-only">
+        <!--Start hero title-->
+        <div class="header-title">
+            <div class="header-title-container">
+                <img src='img/assets/logo-w.png' alt="logo">
+            </div>
+        </div>
+        <!--End hero title-->
+    </div>
+    <!--End hero for small-->
 
 </header>

@@ -1,16 +1,15 @@
-/***********************/
-/***** SITE HEADER *****/
-/***********************/
+/**********************/
+/***** SITE HEADER*****/
+/**********************/
 
-//Top bar
 
+//Top bar main
 .top-bar {
-  display: block;
-  position: absolute;
   z-index: 12;
-
-  width: 100%;
-  background-color: rgba(0,0,0,.75);
+  min-width: 100%;
+  background-color: $white;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.1);
+  position: relative;
 }
 
 .top-bar ul {
@@ -21,6 +20,13 @@
   padding-left: 30px;
 }
 
+.logo-text {
+  @include grid-col(2);
+  display: block;
+  @include grid-col-pos(2);
+  @include vertical-center;
+}
+
 //Top main nav
 .header-nav {
   padding: .6rem;
@@ -29,8 +35,8 @@
 
 .header-nav li a {
   width: 100%;
-  font-size: 1.2em;
-  color: white;
+  font-size: .7em;
+  color: $black;
   text-transform: uppercase;
 }
 
@@ -39,7 +45,7 @@
 .header-nav li a:active {
   text-transform: uppercase;
   text-decoration: underline;
-  color: $primary-color;
+  color: $dark-black;
 }
 
 //Orbital
@@ -51,6 +57,29 @@
   max-height: 1000px;
   height: auto !important;
   overflow: hidden;
+}
+
+/***************/
+/*Top bar index*/
+/***************/
+
+.top-bar-index {
+  display: block;
+  position: absolute;
+  z-index: 12;
+
+  min-width: 100%;
+  background-color: rgba(0,0,0,.75);
+}
+
+.header-nav-index li a {
+  color: $white;
+}
+
+.header-nav-index li a:hover,
+.header-nav-index li a:focus,
+.header-nav-index li a:active {
+  color: $primary-color;
 }
 
 //Hero for small
@@ -83,7 +112,7 @@
 
 .header-title img {
   width: 80vw;
-  max-width: 500px;
+  max-width: 550px;
 }
 
 
@@ -129,7 +158,7 @@
   @include grid-col-row();
   min-width: 100%;
   padding: 5rem 0 0 0;
-  background-color: $black;
+  background-color: $dark-black;
   color: $white;
 }
 
