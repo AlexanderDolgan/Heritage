@@ -11,14 +11,14 @@
   /***MAIN SITE SECTION***/
   /***********************/
 
-  .site-main {
+  .section-bg-image {
     background-image: url("../img/assets/info-block-bg-1.jpg");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  .article-content {
+  .article-content-index {
     @include grid-column(6);
     @include grid-col-pos(6);
     max-width: 550px;
