@@ -1,0 +1,41 @@
+/* Small only */
+@include breakpoint(small only) {
+  /***********************/
+  /***** SITE HEADER *****/
+  /***********************/
+
+  //Top Bar
+  .title-bar {
+    background-color: $secondary-color;
+  }
+
+  .top-bar {
+    background-color: $secondary-color;
+  }
+
+  /***********************/
+  /***MAIN SITE SECTION***/
+  /***********************/
+
+  /***********************/
+  /*********FOOTER********/
+  /***********************/
+
+  .site-footer {
+    padding:1rem 0;
+  }
+
+  .footer-content {
+    padding:0 3rem;
+  }
+
+  .footer-contact-item h3,
+  .footer-contact-item h4 {
+    margin-top: 1rem;
+  }
+
+  .footer-contacts-container {
+    margin-top: 2rem;
+  }
+
+}
