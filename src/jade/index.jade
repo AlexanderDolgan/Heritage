@@ -1,0 +1,31 @@
+doctype html
+html
+	head
+		title Heritage Real Estate Fund
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial, scale=1")
+		link(rel="stylesheet" href="style/main.min.css")
+		link(rel="stylesheet" href="fonts/foundation-icons.css")
+		link(rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif")
+	body
+		.wrap
+			header#site-header
+				.header-top-bar
+
+					//header logo
+					.header-top-bar__logo
+						.text-logo
+							img.text-logo__img(href="img/assets/logo-text.svg" alt="text logo")
+
+					//header navigation
+					nav.header-top-bar__nav
+						// horisontal menu
+						ul.hor-nav
+							each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
+								li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+
+
+
+
+			main#site-main
+			footer#site-footer

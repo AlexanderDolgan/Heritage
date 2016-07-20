@@ -2,19 +2,20 @@
 
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
-    prefixer = require('gulp-autoprefixer'),
-    cleancss = require('gulp-clean-css'),
-    uglify = require('gulp-uglify'),
-    imagemin = require('gulp-imagemin'),
+    jade= require('gulp-jade'),
     plumber = require('gulp-plumber'),
     rigger = require('gulp-rigger'),
     sass = require('gulp-sass'),
-    sourcemaps = require('gulp-sourcemaps'),
     spritesmith = require('spritesmith'),
+    imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
-    rename = require('gulp-rename'),
-    babel = require('gulp-babel'),
     concat = require('gulp-concat'),
+    rename = require('gulp-rename'),
+    cleancss = require('gulp-clean-css'),
+    uglify = require('gulp-uglify'),
+    prefixer = require('gulp-autoprefixer'),
+    sourcemaps = require('gulp-sourcemaps'),
+    babel = require('gulp-babel'),
     rimraf = require('rimraf'),
     graceful = require('graceful-fs'),
     gutil = require('gulp-util'),
@@ -26,7 +27,8 @@ var path = {
     build: {
         fonts: 'build/fonts/',
         img: 'build/img/',
-        html: 'build/',
+        //html: 'build/',
+        jade: 'build/',
         js: 'build/js/',
         css: 'build/style',
         foundjs: 'build/js/'
@@ -35,7 +37,8 @@ var path = {
     src: {
         fonts: 'src/fonts/**/*.*',
         img: 'src/img/**/*.*',
-        html: 'src/*.html',
+        //html: 'src/*.html',
+        jade: 'src/jade/*.jade',
         js: 'src/js/*.js',
         foundjs: 'bower_components/foundation-sites/js/foundation.',
         css: 'src/style/*.scss'
@@ -44,7 +47,8 @@ var path = {
     watch: {
         fonts: 'src/fonts/**/*.*',
         img: 'src/img/**/*.*',
-        html: 'src/**/*.html',
+        //html: 'src/**/*.html',
+        jade: 'src/jade/**/*.jade',
         js: 'src/js/**/*.js',
         css: 'src/style/**/*.scss'
     },
@@ -69,12 +73,21 @@ function onError(err) {
     this.emit('end');
 }
 
-gulp.task('html:build', function () {
-    gulp.src(path.src.html)
-        .pipe(rigger())
-        .pipe(gulp.dest(path.build.html))
-        .pipe(reload({stream: true}));
+gulp.task('jade:build', function () {
+   gulp.src(path.src.jade)
+       .pipe(jade({pretty: true}))
+       .pipe(gulp.dest(path.build.jade))
+       .on('error', function(err) { gutil.log(err.message); })
+       .pipe(reload({stream: true}));
+
 });
+
+//gulp.task('html:build', function () {
+//    gulp.src(path.src.html)
+//        .pipe(rigger())
+//        .pipe(gulp.dest(path.build.html))
+//        .pipe(reload({stream: true}));
+//});
 
 gulp.task('js:build', function () {
     gulp.src(path.src.js)
@@ -122,11 +135,10 @@ gulp.task('foundation-js:build', function () {
         }))
         .pipe(sourcemaps.init())
         .pipe(concat('foundation.js'))
-        .pipe(gulp.dest(path.build.foundjs))
         .pipe(rename({suffix: '.min'}))
         //.pipe(uglify())//dosesn't work =/
         .pipe(sourcemaps.write(path.build.foundjs)) // Creates sourcemap for minified Foundation JS
-        .pipe(gulp.dest('path.build.foundjs'))
+        .pipe(gulp.dest(path.build.foundjs))
 });
 
 gulp.task('style:build', function () {
@@ -164,7 +176,8 @@ gulp.task('fonts:build', function () {
 });
 
 gulp.task('build', [
-    'html:build',
+    //'html:build',
+    'jade:build',
     'js:build',
     'style:build',
     'image:build',
@@ -173,8 +186,11 @@ gulp.task('build', [
 ]);
 
 gulp.task('watch', function () {
-    watch([path.watch.html], function (event, cb) {
-        gulp.start('html:build');
+    //watch([path.watch.html], function (event, cb) {
+    //    gulp.start('html:build');
+    //});
+    watch([path.watch.jade], function (event, cb) {
+        gulp.start('jade:build');
     });
     watch([path.watch.css], function (event, cb) {
         gulp.start('style:build');
