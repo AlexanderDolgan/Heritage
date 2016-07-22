@@ -1,9 +1,30 @@
 body {
   font-size: $global-font-size;
-  font-family: $global-font-famyli;
+  font-family: $global-font-family;
+  line-height: $global-line-height;
+  background-color: $body-background;
 }
 
 img {
   width: 100%;
   height: auto;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:hover,
+  &:active,
+  &:focus {
+    color: darken($primary-color,15%);
+    text-decoration: underline;
+  }
+}
+
+

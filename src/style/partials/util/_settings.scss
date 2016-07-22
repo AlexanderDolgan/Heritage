@@ -1,4 +1,22 @@
 //Global
-
 $global-font-size: 100%;
-$global-font-famyli: 'PT Serif', serif;
+$global-line-height: 1.7;
+
+//Colors
+$primary-color: #ae9f6f;
+$secondary-color: #750900;
+$success-color: #3adb76;
+$warning-color: #ffae00;
+$alert-color: #ec5840;
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #4A4A4A;
+$dark-black: #353535;
+$white: #fefefe;
+
+$body-background: $white;
+$body-font-color: $black;
+
+$global-font-family: 'PT Serif', serif;

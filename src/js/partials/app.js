@@ -1,8 +1,8 @@
 var main = function() {
-    $('.term-header').click(function() {
-        $('.terms').toggleClass('hide');
+    $('.terms__header').click(function() {
+        $('.terms__content').toggleClass('hide');
 
-        var tag = $('#terms');
+        var tag = $('#terms__content');
         $('html,body').animate({scrollTop: tag.offset().top},'slow');
 
     });
