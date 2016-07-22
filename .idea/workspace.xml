@@ -2,294 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46bc8c5-e925-4614-acdd-95e24ae4c0b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/base/_base.scss" afterPath="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" afterPath="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/index.jade" afterPath="$PROJECT_DIR$/src/jade/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-address-book.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-address-book.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-alert.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-alert.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-center.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-center.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-justify.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-justify.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-left.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-left.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-right.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-align-right.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-anchor.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-anchor.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-annotate.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-annotate.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-archive.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-archive.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-down.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-down.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-left.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-left.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-right.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-right.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-up.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrow-up.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-compress.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-compress.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-expand.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-expand.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-in.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-in.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-out.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-arrows-out.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-asl.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-asl.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-asterisk.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-asterisk.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-at-sign.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-at-sign.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-background-color.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-background-color.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-empty.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-empty.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-full.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-full.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-half.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-battery-half.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bitcoin-circle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bitcoin-circle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bitcoin.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bitcoin.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-blind.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-blind.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bluetooth.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bluetooth.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bold.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bold.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-book-bookmark.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-book-bookmark.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-book.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-book.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bookmark.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-bookmark.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-braille.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-braille.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst-new.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst-new.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst-sale.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst-sale.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-burst.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-calendar.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-calendar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-camera.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-camera.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-check.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-check.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-checkbox.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-checkbox.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard-notes.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard-notes.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard-pencil.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard-pencil.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clipboard.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clock.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-clock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-closed-caption.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-closed-caption.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-cloud.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-cloud.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-minus.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-minus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-quotes.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-quotes.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-video.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment-video.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comment.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comments.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-comments.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-compass.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-compass.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-contrast.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-contrast.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-credit-card.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-credit-card.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-crop.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-crop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-crown.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-crown.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-css3.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-css3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-database.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-database.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-five.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-five.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-four.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-four.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-one.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-one.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-six.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-six.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-three.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-three.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-two.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-die-two.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dislike.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dislike.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dollar-bill.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dollar-bill.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dollar.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-dollar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-download.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-download.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-eject.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-eject.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-elevator.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-elevator.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-euro.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-euro.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-eye.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-eye.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-fast-forward.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-fast-forward.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-female-symbol.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-female-symbol.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-female.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-female.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-filter.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-filter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-first-aid.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-first-aid.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-flag.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-flag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder-add.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder-add.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder-lock.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder-lock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-folder.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-foot.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-foot.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-foundation.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-foundation.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-bar.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-bar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-horizontal.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-horizontal.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-pie.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-pie.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-trend.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-graph-trend.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-guide-dog.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-guide-dog.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-hearing-aid.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-hearing-aid.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-heart.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-heart.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-home.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-home.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-html5.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-html5.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-indent-less.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-indent-less.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-indent-more.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-indent-more.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-info.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-info.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-italic.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-italic.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-key.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-key.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-laptop.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-laptop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-layout.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-layout.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-lightbulb.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-lightbulb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-like.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-like.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-link.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-link.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-bullet.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-bullet.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-number.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-number.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-thumbnails.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list-thumbnails.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-list.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-lock.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-lock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-loop.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-loop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-magnifying-glass.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-magnifying-glass.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mail.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mail.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male-female.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male-female.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male-symbol.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male-symbol.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-male.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-map.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-map.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-marker.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-marker.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-megaphone.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-megaphone.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-microphone.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-microphone.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-minus-circle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-minus-circle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-minus.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-minus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mobile-signal.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mobile-signal.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mobile.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mobile.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-monitor.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-monitor.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mountains.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-mountains.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-music.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-music.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-next.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-next.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-no-dogs.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-no-dogs.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-no-smoking.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-no-smoking.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-add.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-add.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-copy.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-copy.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-csv.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-csv.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-delete.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-delete.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-doc.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-doc.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-edit.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-edit.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-csv.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-csv.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-doc.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-doc.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-pdf.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export-pdf.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-export.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-filled.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-filled.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-multiple.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-multiple.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-pdf.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-pdf.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-remove.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-remove.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-search.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page-search.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-page.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paint-bucket.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paint-bucket.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paperclip.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paperclip.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pause.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pause.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paw.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paw.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paypal.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-paypal.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pencil.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pencil.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-photo.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-photo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play-circle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play-circle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play-video.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play-video.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-play.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-plus.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-plus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pound.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pound.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-power.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-power.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-previous.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-previous.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-price-tag.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-price-tag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pricetag-multiple.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-pricetag-multiple.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-print.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-print.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-prohibited.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-prohibited.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-projection-screen.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-projection-screen.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-puzzle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-puzzle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-quote.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-quote.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-record.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-record.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-refresh.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-refresh.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-results-demographics.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-results-demographics.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-results.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-results.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rewind-ten.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rewind-ten.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rewind.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rewind.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rss.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-rss.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-safety-cone.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-safety-cone.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-save.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-save.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-share.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-share.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-sheriff-badge.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-sheriff-badge.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shield.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shield.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shopping-bag.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shopping-bag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shopping-cart.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shopping-cart.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shuffle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-shuffle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-skull.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-skull.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-500px.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-500px.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-adobe.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-adobe.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-amazon.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-amazon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-android.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-android.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-apple.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-apple.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-behance.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-behance.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-bing.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-bing.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-blogger.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-blogger.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-delicious.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-delicious.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-designer-news.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-designer-news.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-deviant-art.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-deviant-art.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-digg.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-digg.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-dribbble.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-dribbble.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-drive.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-drive.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-dropbox.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-dropbox.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-evernote.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-evernote.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-facebook.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-facebook.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-flickr.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-flickr.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-forrst.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-forrst.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-foursquare.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-foursquare.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-game-center.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-game-center.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-github.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-github.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-google-plus.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-google-plus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-hacker-news.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-hacker-news.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-hi5.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-hi5.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-instagram.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-instagram.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-joomla.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-joomla.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-lastfm.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-lastfm.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-linkedin.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-linkedin.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-medium.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-medium.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-myspace.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-myspace.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-orkut.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-orkut.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-path.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-path.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-picasa.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-picasa.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-pinterest.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-pinterest.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-rdio.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-rdio.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-reddit.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-reddit.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-skillshare.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-skillshare.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-skype.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-skype.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-smashing-mag.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-smashing-mag.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-snapchat.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-snapchat.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-spotify.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-spotify.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-squidoo.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-squidoo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-stack-overflow.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-stack-overflow.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-steam.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-steam.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-stumbleupon.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-stumbleupon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-treehouse.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-treehouse.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-tumblr.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-tumblr.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-twitter.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-twitter.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-vimeo.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-vimeo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-windows.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-windows.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-xbox.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-xbox.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-yahoo.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-yahoo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-yelp.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-yelp.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-youtube.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-youtube.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-zerply.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-zerply.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-zurb.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-social-zurb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-sound.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-sound.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-star.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-star.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-stop.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-stop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-strikethrough.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-strikethrough.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-subscript.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-subscript.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-superscript.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-superscript.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-tablet-landscape.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-tablet-landscape.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-tablet-portrait.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-tablet-portrait.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-target-two.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-target-two.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-target.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-target.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-telephone-accessible.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-telephone-accessible.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-telephone.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-telephone.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-text-color.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-text-color.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-thumbnails.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-thumbnails.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-ticket.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-ticket.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso-business.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso-business.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso-female.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso-female.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torso.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-all-female.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-all-female.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-all.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-all.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-female-male.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-female-male.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-male-female.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos-male-female.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-torsos.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trash.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trash.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trees.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trees.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trophy.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-trophy.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-underline.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-underline.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-universal-access.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-universal-access.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-unlink.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-unlink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-unlock.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-unlock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-upload-cloud.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-upload-cloud.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-upload.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-upload.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-usb.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-usb.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-video.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-video.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume-none.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume-none.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume-strike.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume-strike.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-volume.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-web.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-web.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-wheelchair.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-wheelchair.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-widget.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-widget.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-wrench.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-wrench.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-x-circle.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-x-circle.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-x.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-x.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-yen.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-yen.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-zoom-in.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-zoom-in.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-zoom-out.svg" afterPath="$PROJECT_DIR$/build/fonts/foundation-icons/svgs/fi-zoom-out.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" afterPath="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" />
     </list>
     <ignored path="Heritage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -312,22 +32,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <leaf>
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_grid.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.81953645">
-                  <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.6816976">
+                  <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -336,8 +46,8 @@
           <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+                <state vertical-scroll-proportion="-5.0">
+                  <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -356,8 +66,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.25">
-                  <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+                <state vertical-scroll-proportion="-3.125">
+                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -366,12 +76,22 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/settings/_settings.scss">
+        <leaf>
+          <file leaf-file-name="index-content.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/templates_old/index-content.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.142384">
-                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+                <state vertical-scroll-proportion="-16.25">
+                  <caret line="26" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="26" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/templates_old/footer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.12747875">
+                  <caret line="5" column="30" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -438,13 +158,13 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/style/partials/util/_var.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/base/_index.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
-        <option value="$PROJECT_DIR$/src/jade/index.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/base/_reset.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/layout/_index.scss" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
+        <option value="$PROJECT_DIR$/src/jade/index.jade" />
       </list>
     </option>
   </component>
@@ -459,6 +179,24 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
         <tasks>
           <GulpTaskState>
+            <task-name>jade:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>foundation-js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>style:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>image:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fonts:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
             <dependencies>
               <dependency value="jade:build" />
               <dependency value="js:build" />
@@ -468,6 +206,12 @@
               <dependency value="foundation-js:build" />
             </dependencies>
             <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>webserver</task-name>
           </GulpTaskState>
           <GulpTaskState>
             <task-name>clean</task-name>
@@ -480,43 +224,21 @@
             </dependencies>
             <task-name>default</task-name>
           </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>foundation-js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>image:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>jade:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>style:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>webserver</task-name>
-          </GulpTaskState>
         </tasks>
       </GulpfileState>
     </gulpfiles>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="44" />
-    <option name="width" value="1568" />
-    <option name="height" value="1002" />
+    <option name="y" value="127" />
+    <option name="width" value="1280" />
+    <option name="height" value="669" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -542,10 +264,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -606,11 +328,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,100 +342,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Heritage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -768,12 +406,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -798,30 +430,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="44" width="1568" height="1002" extended-state="0" />
+    <frame x="0" y="127" width="1280" height="669" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990316" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30063966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09808102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15268676" sideWeight="0.47103658" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15268676" sideWeight="0.5289634" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09808102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15508886" sideWeight="0.48051947" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21243942" sideWeight="0.5194805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2980936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990316" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -840,30 +472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/settings/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1113,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.4104133">
           <caret line="188" column="28" selection-start-line="188" selection-start-column="28" selection-end-line="188" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/breakpoint-sass/stylesheets/_breakpoint.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.73926866">
@@ -1171,8 +770,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/settings/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.142384">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37804878">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1187,24 +794,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates_old/index-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates_old/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12747875">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81953645">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.6816976">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding />
         </state>
       </provider>

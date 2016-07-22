@@ -1,3 +1,6 @@
+//import breakpoint
+@import "../../../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 //import susy
 @import "../../../../bower_components/susy/sass/susy";
 
@@ -10,7 +13,7 @@ $susy: (
         container: auto,
         container-position: center,
         columns: 12,
-        gutters: .25,
+        gutters: 0.25,
         column-width: false,
         global-box-sizing: border-box,
         last-flow: to,
@@ -28,25 +31,3 @@ $susy: (
                 rem: true,
         )
 );
-
-#site-header {
-  @include container;
-}
-
-.header-top-bar__logo {
-  @include span(3);
-  background-color: #7d7d7d;
-}
-
-.header-top-bar__nav {
-  @include span(9);
-  background-color: #c5c5c5;
-}
-
-#site-main {
-  @include container;
-}
-
-#site-footer {
-  @include container;
-}
