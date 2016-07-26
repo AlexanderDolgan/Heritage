@@ -1,0 +1,98 @@
+@include susy-breakpoint($b-small, 12) {
+  .header-top-bar {
+    position: absolute;
+    z-index: 4;
+    &__nav {
+      display: none;
+      padding: 3em 1em 2em 1em;
+    }
+    &__sec-menu {
+      display: block;
+      position: absolute;
+      z-index: 4;
+    }
+  }
+
+  .hor-nav {
+    &__item {
+      margin-top: 1em;
+    }
+  }
+
+  .header-hero {
+    &__logo {
+      @include span(10);
+    }
+    &__slider {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  body {
+    font-size: 100%;
+  }
+
+  .header-top-bar {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(0,0,0,.7);
+    &__nav {
+      display: block;
+      padding: 1em;
+    }
+    &__sec-menu {
+      display: none;
+    }
+  }
+
+  //top bar hor nav
+  .hor-nav {
+    &__item {
+      display: inline-block;
+      border-right: 1px solid rgba(255,255,255,.2);
+      margin-top: 0;
+    }
+    &__anchor {
+      display: block;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      color: $white;
+      font-size: .8em;
+    }
+  }
+
+  //header hero
+  .header-hero {
+    &__logo {
+      width: span(6);
+    }
+    &__slider {
+      display: block;
+    }
+    &__slider-mob {
+      display: none;
+    }
+  }
+
+  .content-row {
+    @include container();
+
+  }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  .header-hero{
+    &__logo {
+      width: span(5);
+    }
+  }
+  //top bar hor nav
+  .hor-nav {
+    &__anchor {
+      font-size: 1.1em;
+    }
+  }
+}

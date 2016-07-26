@@ -1,0 +1,28 @@
+//Site header
+header#site-header
+	.header-top-bar
+		.header-top-bar__sec-menu
+			button(type="button" class="sec-menu-btn")
+				.sec-menu-btn__title
+					span.fi-list  Sections
+
+		//header navigation
+		nav.header-top-bar__nav
+			// horisontal menu
+			ul.hor-nav
+				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
+					li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+
+	section.header-hero
+		.header-hero__logo
+			img(src="img/assets/logo-w.png")
+		.header-hero__slider
+			ul#slides
+				li.slides__item2: img(src="img/assets/header_slider_2.jpg")
+				li.slides__item.showing: img(src="img/assets/header_slider_2.jpg")
+				li.slides__item: img(src="img/assets/header_slider_1.jpg")
+				li.slides__item: img(src="img/assets/header_slider_2.jpg")
+				li.slides__item: img(src="img/assets/header_slider_1.jpg")
+		.header-hero__slider-mob
+			img(src="img/assets/header_mob.jpg")
+//End site header

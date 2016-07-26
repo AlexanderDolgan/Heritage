@@ -1,14 +1,18 @@
+@import "mixin";
+
 //Global
-$global-font-size: 100%;
+$global-font-size: 110%;
 $font-smooth: always;
 $global-line-height: 1.7;
 
 //Colors
-$primary-color: #ae9f6f;
-$secondary-color: #750900;
-$success-color: #3adb76;
-$warning-color: #ffae00;
-$alert-color: #ec5840;
+$brand-palette: (
+  primary: #ae9f6f,
+  secondary: #750900,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840
+);
 
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -22,3 +26,17 @@ $body-font-color: $black;
 
 $global-font-family: 'PT Serif', serif;
 
+@include add-brand-colors;
+
+// Media q breakpoints
+
+$b-small: 0;
+$b-medium: 640px;
+$b-large: 1024px;
+$b-xlarge: 1200px;
+$b-xxlarge: 1440px;
+
+$b-small-only: 0 639px;
+$b-medium-only: 640px 1023px;
+$b-large-only: 1024px 1199px;
+$b-xlarge-only: 1200px 1440px;

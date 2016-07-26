@@ -1,0 +1,17 @@
+#wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+#site-header {
+  @include container();
+  position: relative;
+}
+
+#site-main {
+  @include container();
+}
+
+#site-footer {
+  @include container();
+}
