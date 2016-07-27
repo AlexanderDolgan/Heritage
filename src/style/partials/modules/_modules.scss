@@ -68,13 +68,11 @@
 
 //content block
 .content-block {
-  @include container();
-  background-color: $white;
+  position: relative;
   text-align: justify;
-  background-image: url("../img/assets/info-block-bg-1.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  overflow: hidden;
   &__article {
-
+    @include span(10);
+    @include push(1);
   }
 }

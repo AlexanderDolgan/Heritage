@@ -95,4 +95,21 @@
       font-size: 1.1em;
     }
   }
+  //content-block article
+  .content-block {
+    position: relative;
+    text-align: justify;
+    overflow: hidden;
+    &__article {
+      @include span(5);
+      @include push(6);
+    }
+    &__bgimg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: -1;
+    }
+  }
 }

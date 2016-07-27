@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46bc8c5-e925-4614-acdd-95e24ae4c0b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/base/_base.scss" afterPath="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/util/_settings.scss" afterPath="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/states/_states.scss" afterPath="$PROJECT_DIR$/src/style/partials/states/_states.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/index.jade" afterPath="$PROJECT_DIR$/src/jade/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/states/_m-query.scss" afterPath="$PROJECT_DIR$/src/style/partials/states/_m-query.scss" />
     </list>
     <ignored path="Heritage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +32,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.4765751">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
               <provider selected="true" editor-type-id="text-editor">
@@ -51,9 +48,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-                  <folding>
-                    <marker date="1469555318000" expanded="true" signature="22:237" placeholder="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -81,8 +76,8 @@
           <file leaf-file-name="main.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/jade/partials/main.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.16304348">
-                  <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.7054455">
+                  <caret line="15" column="182" selection-start-line="6" selection-start-column="6" selection-end-line="15" selection-end-column="182" />
                   <folding />
                 </state>
               </provider>
@@ -91,32 +86,32 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.25">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_modules.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_modules.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_modules.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.64285713">
-                  <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+                <state vertical-scroll-proportion="-7.7083335">
+                  <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_m-query.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_m-query.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style/partials/states/_m-query.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-59.375">
-                  <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.80263156">
+                  <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -192,13 +187,13 @@
         <option value="$PROJECT_DIR$/src/style/partials/layout/_layout.scss" />
         <option value="$PROJECT_DIR$/src/js/partials/app.js" />
         <option value="$PROJECT_DIR$/src/jade/partials/header-index.jade" />
-        <option value="$PROJECT_DIR$/src/style/partials/states/_m-query.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/states/_states.scss" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
         <option value="$PROJECT_DIR$/src/jade/index.jade" />
         <option value="$PROJECT_DIR$/src/jade/partials/main.jade" />
+        <option value="$PROJECT_DIR$/src/style/partials/states/_m-query.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" />
       </list>
     </option>
@@ -214,24 +209,6 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
         <tasks>
           <GulpTaskState>
-            <task-name>jade:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>foundation-js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>style:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>image:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
             <dependencies>
               <dependency value="jade:build" />
               <dependency value="js:build" />
@@ -241,12 +218,6 @@
               <dependency value="foundation-js:build" />
             </dependencies>
             <task-name>build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>webserver</task-name>
           </GulpTaskState>
           <GulpTaskState>
             <task-name>clean</task-name>
@@ -259,21 +230,42 @@
             </dependencies>
             <task-name>default</task-name>
           </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fonts:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>foundation-js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>image:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>jade:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>style:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>webserver</task-name>
+          </GulpTaskState>
         </tasks>
       </GulpfileState>
     </gulpfiles>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="400" />
-    <option name="width" value="1280" />
-    <option name="height" value="396" />
+    <option name="y" value="580" />
+    <option name="width" value="1920" />
+    <option name="height" value="496" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -467,30 +459,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="400" width="1280" height="396" extended-state="0" />
+    <frame x="0" y="580" width="1920" height="496" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09808102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22455573" sideWeight="0.34065935" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22455573" sideWeight="0.6593407" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4532967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990316" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990316" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45173043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097222224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22417465" sideWeight="0.34065935" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22455573" sideWeight="0.6593407" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -743,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/partials/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <marker date="1469555318000" expanded="true" signature="22:237" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/typography/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.747191">
@@ -791,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5">
@@ -831,22 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/states/_m-query.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-59.375">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/assets/info-block-bg-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -860,6 +818,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/partials/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jade/partials/header-index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -868,18 +834,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jade/partials/main.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16304348">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.7054455">
+          <caret line="15" column="182" selection-start-line="6" selection-start-column="6" selection-end-line="15" selection-end-column="182" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_modules.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        <state vertical-scroll-proportion="-7.7083335">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/states/_m-query.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80263156">
+          <caret line="113" column="3" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
           <folding />
         </state>
       </provider>
