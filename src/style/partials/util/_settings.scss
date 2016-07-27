@@ -1,9 +1,10 @@
 @import "mixin";
 
 //Global
+$global-font-family: 'PT Serif', serif;
 $global-font-size: 110%;
-$font-smooth: always;
 $global-line-height: 1.7;
+$font-smooth: always;
 
 //Colors
 $brand-palette: (
@@ -24,7 +25,6 @@ $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
 
-$global-font-family: 'PT Serif', serif;
 
 @include add-brand-colors;
 
@@ -40,3 +40,13 @@ $b-small-only: 0 639px;
 $b-medium-only: 640px 1023px;
 $b-large-only: 1024px 1199px;
 $b-xlarge-only: 1200px 1440px;
+
+//Typography
+
+$paragraph-lineheight: 1.7;
+$paragraph-margin-bottom: 1.5em;
+
+$header-font-family: $global-font-family;
+$header-font-weight: bold;
+$header-color: $body-font-color;
+$header-lineheight: 1.4;

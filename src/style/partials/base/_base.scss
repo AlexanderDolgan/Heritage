@@ -12,8 +12,6 @@ img {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
@@ -23,12 +21,50 @@ a {
   &:hover,
   &:active,
   &:focus {
-    color: darken($primary-color,15%);
+    color: darken($primary-color, 15%);
     text-decoration: underline;
   }
 }
 
-h1, h2, h3, h4, h5 {
+// Typography resets
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
   margin: 0;
   padding: 0;
+}
+
+// Paragraphs
+p {
+  line-height: $paragraph-lineheight;
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  color: $header-color;
+  line-height: $header-lineheight;
 }
