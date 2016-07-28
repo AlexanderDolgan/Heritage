@@ -14,11 +14,18 @@
   &__anchor {
     display: block;
     padding: 5px 10px;
-    text-transform: uppercase;
-    color: $white;
   }
 }
 
+.top-nav {
+  &__item {
+    border-right: 1px solid rgba(255,255,255,.2);
+  }
+  text-transform: uppercase;
+  a {
+    color: $white;
+  }
+}
 .header-hero {
   position: relative;
   &__logo {

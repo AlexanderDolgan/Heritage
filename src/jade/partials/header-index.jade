@@ -9,9 +9,9 @@ header#site-header
 		//header navigation
 		nav.header-top-bar__nav
 			// horisontal menu
-			ul.hor-nav
+			ul.hor-nav.top-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
-					li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+					li.hor-nav__item.top-nav__item: a.hor-nav__anchor(href= val + ".html")= val
 
 	section.header-hero
 		.header-hero__logo
