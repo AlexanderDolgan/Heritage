@@ -8,11 +8,11 @@ $font-smooth: always;
 
 //Colors
 $brand-palette: (
-  primary: #ae9f6f,
-  secondary: #750900,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #ec5840
+        primary: #ae9f6f,
+        secondary: #750900,
+        success: #3adb76,
+        warning: #ffae00,
+        alert: #ec5840
 );
 
 $light-gray: #e6e6e6;
@@ -24,7 +24,6 @@ $white: #fefefe;
 
 $body-background: $white;
 $body-font-color: $black;
-
 
 @include add-brand-colors;
 
@@ -40,6 +39,8 @@ $b-small-only: 0 639px;
 $b-medium-only: 640px 1023px;
 $b-large-only: 1024px 1199px;
 $b-xlarge-only: 1200px 1440px;
+
+
 
 //Typography
 

@@ -75,11 +75,40 @@
 
 //content block
 .content-block {
+  @include container();
   position: relative;
-  text-align: justify;
   overflow: hidden;
   &__article {
     @include span(10);
     @include push(1);
+  }
+}
+
+//article
+.content-block__article {
+  padding: 5em 0;
+
+  .article__hgroup {
+    margin-bottom: 3.5em;
+    ::after {
+      content: "";
+      display: block;
+      margin-top: 1em;
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+  .article__content {
+    text-align: justify;
+
+  }
+}
+
+.content__list {
+  li {
+    margin-bottom: 1.5em;
+    &::before {
+      content: "∙ ";
+      font-weight: 700;
+    }
   }
 }
