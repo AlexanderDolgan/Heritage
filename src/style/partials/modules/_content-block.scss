@@ -1,0 +1,52 @@
+//content block
+.content-block {
+  @include container();
+  position: relative;
+  overflow: hidden;
+}
+
+@include susy-breakpoint($b-small, 12) {
+  //content-block article
+  .content-block {
+    &__bgimg {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+
+}
+
+@include susy-breakpoint($b-large, 12) {
+
+  //content-block article
+  .content-block {
+    position: relative;
+    text-align: justify;
+    overflow: hidden;
+    &__article {
+      padding: 2em 2em;
+    }
+    &__bgimg {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      z-index: -1;
+    }
+  }
+}
+
+@include susy-breakpoint($b-small, 12) {
+  .content-block__article {
+    padding: 2em 1em;
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  .content-block__article {
+    padding: 5em 3em;
+  }
+}

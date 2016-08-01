@@ -1,10 +1,12 @@
 footer#site-footer
-	section.footer-row
+	section.footer-block
 		//Footer nav
-		nav.footer-row__nav
-			ul.vert-nav
+		nav.footer-block__nav
+			h3 Secrions
+			ul.vert-nav.footer-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
-					li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+					li.vert-nav__item: a.vert-nav__anchor(href= val + ".html")= val
+
 		//Footer office adresses
 		.footer-row__office-address
 			hgroup.office-adress__hgroup
@@ -28,7 +30,7 @@ footer#site-footer
 					li: a(href="mailto:info@heritageproperties.lu"): <i class="fi-mail"></i> info@heritageproperties.lu
 					li: a(href="tel:+352026782626"): <span class="accent">CALL US:</span>+352 (0) 2678 2626
 
-	section.footer-row
+	section.footer-block
 		//Footer Terms
 		.footer-row__terms
 			h5#terms__content.terms__header TERMS & CONDITIONS

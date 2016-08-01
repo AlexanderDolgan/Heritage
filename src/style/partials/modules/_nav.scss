@@ -1,0 +1,73 @@
+///hamburger btn
+.sec-menu-btn {
+  background-color: transparent;
+  border: none;
+  &:focus{
+    outline-color: black;
+  }
+  &__title {
+    color: $white;
+    padding: 10px 10px;
+  }
+}
+
+//top bar hor nav
+.hor-nav {
+  &__anchor {
+    display: block;
+    padding: 5px 10px;
+  }
+}
+
+.top-nav {
+  &__item {
+  }
+  text-transform: uppercase;
+  a {
+    color: $white;
+  }
+}
+
+.vert-nav {
+  &__anchor {
+  color: $white;
+  }
+}
+
+.footer-nav {
+  color: $white;
+}
+
+@include susy-breakpoint($b-small, 12) {
+  .hor-nav {
+    &__item {
+      margin-top: 1em;
+    }
+  }
+}
+
+@include susy-breakpoint($b-medium) {
+
+  //top bar hor nav
+  .hor-nav {
+    &__item {
+      display: inline-block;
+      border-right: 1px solid rgba(255, 255, 255, .2);
+
+      margin-top: 0;
+    }
+    &__anchor {
+      font-size: .8em;
+    }
+  }
+
+}
+
+@include susy-breakpoint($b-large) {
+  //top bar hor nav
+  .hor-nav {
+    &__anchor {
+      font-size: 1.05em;
+    }
+  }
+}

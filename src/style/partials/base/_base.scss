@@ -1,3 +1,7 @@
+*, *+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: $global-font-size;
   font-family: $global-font-family;
