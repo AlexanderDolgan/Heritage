@@ -2,7 +2,8 @@ footer#site-footer
 	section.footer-block
 		//Footer nav
 		nav.footer-block__nav
-			h3 Secrions
+			hgroup
+				h3.footer-header Sections
 			ul.vert-nav.footer-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
 					li.vert-nav__item: a.vert-nav__anchor(href= val + ".html")= val
@@ -10,21 +11,21 @@ footer#site-footer
 		//Footer office adresses
 		.footer-row__office-address
 			hgroup.office-adress__hgroup
-				h3 Our Offices
-			.office-adress__item
-				ul
+				h3.footer-header Our Offices
+			.office-adress__block
+				ul.office-adress__item
 					li: h4 Luxenburg
 					li: a(href="#"): <i class="fi-home"></i> 127 Rue de Mühlenbach L.2168
 					li: a(href="mailto:info@heritageproperties.lu"): <i class="fi-mail"></i> info@heritageproperties.lu
 					li: a(href="tel:+352026782626"): <span class="accent">CALL US:</span>+352 (0) 2678 2626
-			.office-adress__item
-				ul
+			.office-adress__block
+				ul.office-adress__item
 					li: h4 Paris
 					li: a(href="#"): <i class="fi-home"></i> 127 Rue de Mühlenbach L.2168
 					li: a(href="mailto:info@heritageproperties.lu"): <i class="fi-mail"></i> info@heritageproperties.lu
 					li: a(href="tel:+352026782626"): <span class="accent">CALL US:</span>+352 (0) 2678 2626
-			.office-adress__item
-				ul
+			.office-adress__block
+				ul.office-adress__item
 					li: h4 Dusseldorf
 					li: a(href="#"): <i class="fi-home"></i> 127 Rue de Mühlenbach L.2168
 					li: a(href="mailto:info@heritageproperties.lu"): <i class="fi-mail"></i> info@heritageproperties.lu

@@ -47,6 +47,12 @@
 
 @include susy-breakpoint($b-medium, 12) {
   .content-block__article {
-    padding: 5em 3em;
+    padding: 3em 3em;
+  }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  .content-block__article {
+    padding: 5em 1em;
   }
 }

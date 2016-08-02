@@ -1,5 +1,22 @@
 //footer
 .footer-block {
-
+  padding: 3em 1em;
   background-color: $dark-black;
+}
+
+.footer-header {
+  color: $white;
+  font-weight: 400;
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    border-bottom: 2px solid $primary-color;
+    width: 150px;
+    padding-top: .5em;
+  }
+}
+
+.office-adress__item {
+
 }

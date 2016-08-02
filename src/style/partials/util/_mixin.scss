@@ -16,3 +16,9 @@
     $alert-color: map-get($brand-palette, alert) !global;
   }
 }
+
+@mixin vert-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
