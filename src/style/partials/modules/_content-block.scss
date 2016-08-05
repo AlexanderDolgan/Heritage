@@ -12,21 +12,37 @@
       display: none;
     }
   }
+  .content-block__article {
+    padding: 2em 1em;
+  }
+
+  //main content bg contacts page
+  .contact-block {
+    background-image: none;
+  }
 }
 
 @include susy-breakpoint($b-medium, 12) {
 
+  .content-block__article {
+    padding: 3em 3em;
+  }
+
+  //main content bg contacts page
+  .contact-block {
+    background-image: url("../img/assets/contacts-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @include susy-breakpoint($b-large, 12) {
 
   //content-block article
   .content-block {
-    position: relative;
     text-align: justify;
-    overflow: hidden;
     &__article {
-      padding: 2em 2em;
+      padding: 5em 1em;
     }
     &__bgimg {
       display: block;
@@ -36,23 +52,5 @@
       transform: translate(-50%, 0);
       z-index: -1;
     }
-  }
-}
-
-@include susy-breakpoint($b-small, 12) {
-  .content-block__article {
-    padding: 2em 1em;
-  }
-}
-
-@include susy-breakpoint($b-medium, 12) {
-  .content-block__article {
-    padding: 3em 3em;
-  }
-}
-
-@include susy-breakpoint($b-large, 12) {
-  .content-block__article {
-    padding: 5em 1em;
   }
 }

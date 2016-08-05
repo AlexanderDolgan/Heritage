@@ -1,6 +1,6 @@
 //Site header
 header#site-header
-	.header-top-bar
+	.header-top-bar.top-bar-black
 		.header-top-bar__sec-menu
 			button(type="button" class="sec-menu-btn")
 				.sec-menu-btn__title
@@ -9,7 +9,7 @@ header#site-header
 		//header navigation
 		nav.header-top-bar__nav
 			// horisontal menu
-			ul.hor-nav.top-nav
+			ul.hor-nav.top-nav.index-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
 					li.hor-nav__item.top-nav__item: a.hor-nav__anchor(href= val + ".html")= val
 

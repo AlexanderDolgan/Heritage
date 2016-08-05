@@ -12,29 +12,6 @@
   h4 {
     font-size: 1em;
   }
-
-  .header-top-bar {
-    position: absolute;
-    z-index: 4;
-    &__nav {
-      display: none;
-      padding: 3em 1em 2em 1em;
-    }
-    &__sec-menu {
-      display: block;
-      position: absolute;
-      z-index: 4;
-    }
-  }
-
-  .header-hero {
-    &__logo {
-      @include span(10);
-    }
-    &__slider {
-      display: none;
-    }
-  }
 }
 
 
@@ -58,38 +35,8 @@
     font-size: 1.25em;
   }
 
-  .header-top-bar {
-    display: flex;
-    position: absolute;
-    z-index: 4;
-    background-color: rgba(0, 0, 0, .7);
-    &__nav {
-      display: block;
-      padding: 1em;
-    }
-    &__sec-menu {
-      display: none;
-    }
-  }
-
-  //header hero
-  .header-hero {
-    &__logo {
-      width: span(6);
-    }
-    &__slider {
-      display: block;
-    }
-    &__slider-mob {
-      display: none;
-    }
-  }
 }
 
 @include susy-breakpoint($b-large, 12) {
-  .header-hero {
-    &__logo {
-      width: span(5);
-    }
-  }
+
 }

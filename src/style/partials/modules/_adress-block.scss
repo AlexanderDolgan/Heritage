@@ -1,0 +1,67 @@
+.adress-block {
+  background-color: $white;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.office-adress__item {
+  h4 {
+    color: $primary-color;
+    font-weight: 400;
+    font-size: .9em;
+    padding: 1em 0;
+  }
+  li a {
+    color: $medium-gray;
+    font-size: .8em;
+    i {
+      color: $primary-color;
+    }
+  }
+}
+
+.office-adress__item__black {
+  h4 {
+    color: $primary-color;
+    font-weight: 400;
+    padding: 1em 0;
+  }
+  li a {
+    color: $black;
+    font-size: .8em;
+    i {
+      color: $primary-color;
+    }
+  }
+}
+
+@include susy-breakpoint($b-small, 12) {
+
+}
+
+@include susy-breakpoint($b-medium, 12) {
+
+  .adress-block {
+    @include container(62.5em);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    &__header {
+      margin: 1.5em 0;
+    }
+    &__map {
+      @include span(6);
+    }
+  }
+
+  .office-adress__block {
+    @include span(4);
+    &:last-child {
+      @include last;
+    }
+  }
+
+
+}
+
+@include susy-breakpoint($b-large, 12) {
+
+}
