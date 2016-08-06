@@ -1,6 +1,11 @@
 .adress-block {
   background-color: $white;
-  box-shadow: 0 0 5px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &__map {
+    border-right: 2px solid $primary-color;
+  }
 }
 
 .office-adress__item {
@@ -8,7 +13,6 @@
     color: $primary-color;
     font-weight: 400;
     font-size: .9em;
-    padding: 1em 0;
   }
   li a {
     color: $medium-gray;
@@ -19,14 +23,14 @@
   }
 }
 
+//mod for contacts page
 .office-adress__item__black {
-  h4 {
-    color: $primary-color;
-    font-weight: 400;
-    padding: 1em 0;
+  h2 {
+    margin: 1.5em 0;
+    color: $black;
   }
   li a {
-    color: $black;
+    color: black;
     font-size: .8em;
     i {
       color: $primary-color;
