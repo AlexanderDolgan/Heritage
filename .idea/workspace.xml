@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46bc8c5-e925-4614-acdd-95e24ae4c0b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contacts.html" afterPath="$PROJECT_DIR$/build/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_content-block.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_content-block.scss" />
     </list>
     <ignored path="Heritage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,12 +31,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5207668">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main-contacts.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20361991">
-                  <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.8060345">
+                  <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -45,12 +45,22 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="_adress-block.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.215311">
-                  <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.32687652">
+                  <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.625">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -59,8 +69,8 @@
           <file leaf-file-name="_content-block.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_content-block.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-23.75">
-                  <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+                <state vertical-scroll-proportion="-1.875">
+                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -138,12 +148,12 @@
         <option value="$PROJECT_DIR$/src/style/partials/modules/_header.scss" />
         <option value="$PROJECT_DIR$/src/jade/partials/header.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_index.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_content-block.scss" />
-        <option value="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
+        <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" />
+        <option value="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
       </list>
     </option>
   </component>
@@ -158,24 +168,6 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
         <tasks>
           <GulpTaskState>
-            <task-name>jade:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>foundation-js:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>style:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>image:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts:build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
             <dependencies>
               <dependency value="jade:build" />
               <dependency value="js:build" />
@@ -185,12 +177,6 @@
               <dependency value="foundation-js:build" />
             </dependencies>
             <task-name>build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>webserver</task-name>
           </GulpTaskState>
           <GulpTaskState>
             <task-name>clean</task-name>
@@ -203,22 +189,43 @@
             </dependencies>
             <task-name>default</task-name>
           </GulpTaskState>
+          <GulpTaskState>
+            <task-name>fonts:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>foundation-js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>image:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>jade:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>js:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>style:build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>webserver</task-name>
+          </GulpTaskState>
         </tasks>
       </GulpfileState>
     </gulpfiles>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="241" />
-    <option name="width" value="1280" />
-    <option name="height" value="562" />
+    <option name="x" value="2" />
+    <option name="y" value="525" />
+    <option name="width" value="1920" />
+    <option name="height" value="556" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -244,9 +251,10 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,8 +419,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -421,7 +452,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="content&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_content-block.scss&#10;lay&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/layout/_layout.scss&#10;base&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/base/_base.scss&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_nav.scss&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_footer.scss&#10;sett&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;se&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;install node&#9;null&#9;null&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style_old/partials/_settings.scss&#10;states&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/states/_states.scss&#10;modules&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;modul&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;ut&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_utilities.scss&#10;app&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;large&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;med&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/medium.scss&#10;small&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/small.scss&#10;mai&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;main.js&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/main.js&#10;foundation-icons&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/foundation-icons.scss&#10;ma&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;_setting&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/templates/header.html&#10;larg&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;_settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;gulp&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="sett&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;content&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_content-block.scss&#10;lay&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/layout/_layout.scss&#10;base&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/base/_base.scss&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_nav.scss&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_footer.scss&#10;se&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;install node&#9;null&#9;null&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style_old/partials/_settings.scss&#10;states&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/states/_states.scss&#10;modules&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;modul&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;ut&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_utilities.scss&#10;app&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;large&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;med&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/medium.scss&#10;small&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/small.scss&#10;mai&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;main.js&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/main.js&#10;foundation-icons&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/foundation-icons.scss&#10;ma&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;_setting&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/templates/header.html&#10;larg&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;_settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;gulp&#9;null&#9;null" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="false" />
   </component>
@@ -490,30 +521,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="241" width="1280" height="562" extended-state="0" />
+    <frame x="2" y="525" width="1920" height="556" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1825525" sideWeight="0.4622093" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18012924" sideWeight="0.5377907" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19787234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32702702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17944622" sideWeight="0.43786126" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17944622" sideWeight="0.43786126" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19512194" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3269639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1799787" sideWeight="0.47115386" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1799787" sideWeight="0.52884614" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32702702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -714,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5336323">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74025977">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -878,26 +900,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_content-block.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20361991">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="57" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_content-block.scss">
+    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.215311">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.32687652">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8060345">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
       </provider>

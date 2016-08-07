@@ -4,7 +4,6 @@
   align-items: center;
   flex-wrap: wrap;
   &__map {
-    border-right: 2px solid $primary-color;
   }
 }
 
@@ -25,6 +24,8 @@
 
 //mod for contacts page
 .office-adress__item__black {
+  padding-left: 1.5em;
+  margin: 1.5em 0;
   h2 {
     margin: 1.5em 0;
     color: $black;
