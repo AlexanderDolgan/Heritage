@@ -35,7 +35,7 @@
       </header>
       <main id="site-main">
         <!--contacts main section-->
-        <div class="content-block contact-block">
+        <div class="content-block adress-block-wrapper">
           <section class="adress-block"><img src="../img/assets/map.jpg" alt="map" class="adress-block__map">
             <div class="office-adress__block">
               <ul class="office-adress__item office-adress__item__black">
@@ -72,7 +72,23 @@
               </ul>
             </div>
           </section>
-          <section class="contact-form"></section>
+          <section class="content-block contact-form-wrapper">
+            <form method="post" class="contact-form">
+              <h2 class="contact-form__header">Contact Us</h2>
+              <p>
+                <label for="name" class="contact-form__label">Please enter your name</label>
+                <input type="text" id="name" name="name" placeholder="From" class="contact-form__input">
+              </p>
+              <p>
+                <label for="message" class="contact-form__label">Please, enter your name</label>
+                <textarea id="message" name="message" placeholder="Message" class="contact-form__textarea"></textarea>
+              </p>
+              <section>
+                <label for="send-btn" class="contact-form__sendbtn">Send</label>
+                <button type="button" name="sendbtn">Send</button>
+              </section>
+            </form>
+          </section>
         </div>
       </main>
       <footer id="site-footer">

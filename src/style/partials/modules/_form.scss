@@ -1,0 +1,9 @@
+//contact form
+
+.contact-form-wrapper {
+  @include container($container-width);
+  background-color: $white;
+  padding: 1.5em;
+  text-align: center;
+}
+

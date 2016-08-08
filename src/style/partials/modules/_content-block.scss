@@ -3,6 +3,7 @@
   @include container();
   position: relative;
   overflow: hidden;
+  padding: 1.5em 0;
 }
 
 @include susy-breakpoint($b-small, 12) {
@@ -15,11 +16,6 @@
   .content-block__article {
     padding: 2em 1em;
   }
-
-  //main content bg contacts page
-  .contact-block {
-    background-image: none;
-  }
 }
 
 @include susy-breakpoint($b-medium, 12) {
@@ -29,7 +25,7 @@
   }
 
   //main content bg contacts page
-  .contact-block {
+  .adress-block-wrapper {
     background-image: url("../img/assets/contacts_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
