@@ -30,16 +30,17 @@ main#site-main
 
 		section.content-block.contact-form-wrapper
 			form(method='post').contact-form
-				h2.contact-form__header Contact Us
-				p
-					label(for='name').contact-form__label Please enter your name
-					input(type='text' id='name' name='name' placeholder='From').contact-form__input
-				p
-					label(for='message').contact-form__label Please, enter your name
-					textarea(id='message' name='message' placeholder='Message').contact-form__textarea
 				section
-					label(for='send-btn').contact-form__sendbtn Send
-					button(type='button' name='sendbtn') Send
+					h1.contact-form__header Contact Us
+					p
+						input(type='email' id='name' name='name' placeholder='Please enter your e-mail adress').contact-form__input
+					p
+						label(for='message').contact-form__label
+					p
+						textarea(id='message' name='message' placeholder='Message').contact-form__textarea
+
+				section
+					button(type='button' name='sendbtn' id='send-btn').contact-form__send-btn Send
 
 
 

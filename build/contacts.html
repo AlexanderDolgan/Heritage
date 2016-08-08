@@ -12,16 +12,16 @@
     <div id="wrapper">
       <!--Site header-->
       <header id="site-header">
-        <div class="header-top-bar pos-relative">
-          <div class="header-top-bar__sec-menu">
+        <div class="site-header-top">
+          <div class="site-header-top__ham-btn">
             <button type="button" class="sec-menu-btn">
-              <div class="sec-menu-btn__title"><span class="fi-list"> Sections</span></div>
+              <div class="ham-btn__title"><span class="fi-list"> Sections</span></div>
             </button>
           </div>
           <!--small logo-->
-          <div class="header-top__s-logo"><a href="index.html"><img src="../img/assets/logo-color.svg" class="s-logo__img"></a></div>
+          <div class="site-header-top__s-logo"><a href="index.html"><img src="../img/assets/logo-color.svg" class="s-logo__img"></a></div>
           <!--header navigation-->
-          <nav class="header-top-bar__nav">
+          <nav class="site-header-top__nav">
             <!-- horisontal menu-->
             <ul class="hor-nav top-nav">
               <li class="hor-nav__item top-nav__item"><a href="Home.html" class="hor-nav__anchor">Home</a></li>
@@ -74,18 +74,20 @@
           </section>
           <section class="content-block contact-form-wrapper">
             <form method="post" class="contact-form">
-              <h2 class="contact-form__header">Contact Us</h2>
-              <p>
-                <label for="name" class="contact-form__label">Please enter your name</label>
-                <input type="text" id="name" name="name" placeholder="From" class="contact-form__input">
-              </p>
-              <p>
-                <label for="message" class="contact-form__label">Please, enter your name</label>
-                <textarea id="message" name="message" placeholder="Message" class="contact-form__textarea"></textarea>
-              </p>
               <section>
-                <label for="send-btn" class="contact-form__sendbtn">Send</label>
-                <button type="button" name="sendbtn">Send</button>
+                <h1 class="contact-form__header">Contact Us</h1>
+                <p>
+                  <input type="email" id="name" name="name" placeholder="Please enter your e-mail adress" class="contact-form__input">
+                </p>
+                <p>
+                  <label for="message" class="contact-form__label"></label>
+                </p>
+                <p>
+                  <textarea id="message" name="message" placeholder="Message" class="contact-form__textarea"></textarea>
+                </p>
+              </section>
+              <section>
+                <button type="button" name="sendbtn" id="send-btn" class="contact-form__send-btn">Send</button>
               </section>
             </form>
           </section>

@@ -1,12 +1,32 @@
+.site-header-top {
+  @include container($container-width);
+  &__ham-btn {
+    display: none;
+  }
+  &__s-logo {
+    @include span(3);
+    padding: 1em;
+  }
+  &__nav{
+    @include span(9 last);
+    text-align: right;
+    padding: 1em;
+  }
+}
+////
+
+
 .header-top-bar {
   display: flex;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
   &__nav {
     margin: auto;
   }
 }
+
+
 
 //index top bar
 .top-bar-black {
@@ -76,7 +96,7 @@
 @include susy-breakpoint($b-large, 12) {
   .header-hero {
     &__logo {
-      width: span(5);
+      width: span(6);
     }
   }
 }

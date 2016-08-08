@@ -78,3 +78,35 @@ h6 {
 hgroup {
   margin: 1.5em 0;
 }
+
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid $primary-color;
+  background-color: $light-gray;
+  &:active, &:focus {
+    border: none;
+    background-color: $white;
+  }
+}
+
+textarea {
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 1px solid $primary-color;
+  background-color: $light-gray;
+  &:active, &:focus {
+    border: none;
+    background-color: $white;
+  }
+}
+
+button {
+  color: $white;
+  background-color: $primary-color;
+  border: none;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}

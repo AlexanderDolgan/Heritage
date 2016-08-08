@@ -1,19 +1,19 @@
 //Site header
 header#site-header
-	.header-top-bar.pos-relative
-		.header-top-bar__sec-menu
+	.site-header-top
+		.site-header-top__ham-btn
 			button(type="button" class="sec-menu-btn")
-				.sec-menu-btn__title
+				.ham-btn__title
 					span.fi-list  Sections
 
 		//small logo
-		.header-top__s-logo
+		.site-header-top__s-logo
 			a(href="index.html")
 				img.s-logo__img(src="../img/assets/logo-color.svg")
 
 
 		//header navigation
-		nav.header-top-bar__nav
+		nav.site-header-top__nav
 			// horisontal menu
 			ul.hor-nav.top-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
