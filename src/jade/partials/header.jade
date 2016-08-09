@@ -1,10 +1,12 @@
 //Site header
 header#site-header
-	.site-header-top
-		.site-header-top__ham-btn
-			button(type="button" class="sec-menu-btn")
-				.ham-btn__title
-					span.fi-list  Sections
+	//site header top
+	section.top-wrapper.top-wrapper
+		.site-header-top
+			.site-header-top__ham-btn
+				button(type="button" class="sec-menu-btn")
+					.ham-btn__title
+						span.fi-list  Sections
 
 		//small logo
 		.site-header-top__s-logo
@@ -15,6 +17,6 @@ header#site-header
 		//header navigation
 		nav.site-header-top__nav
 			// horisontal menu
-			ul.hor-nav.top-nav
+			ul.hor-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
-					li.hor-nav__item.top-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+					li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val

@@ -104,9 +104,8 @@ textarea {
 }
 
 button {
-  color: $white;
-  background-color: $primary-color;
   border: none;
   padding: 10px 25px;
+  background-color: transparent;
   text-transform: uppercase;
 }

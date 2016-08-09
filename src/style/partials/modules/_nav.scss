@@ -1,3 +1,33 @@
+.ham-btn {
+  &:active,
+  &:focus {
+    outline: none;
+  }
+  &__title {
+    color: $white;
+  }
+}
+
+.site-header-top {
+  &__nav {
+    //display: none;
+  }
+}
+
+.hor-nav {
+  text-align: center;
+  text-transform: uppercase;
+  &__anchor {
+    display: block;
+    color: $white;
+    padding: 10px;
+    background-color: red;
+  }
+}
+
+//
+//
+//
 //
 ////top bar hor nav
 //.hor-nav {
@@ -29,18 +59,6 @@
 //  }
 //}
 //
-/////hamburger btn
-//.sec-menu-btn {
-//  background-color: transparent;
-//  border: none;
-//  &:focus {
-//    outline-color: black;
-//  }
-//  &__title {
-//    color: $white;
-//    padding: 10px 10px;
-//  }
-//}
 //
 //
 //
