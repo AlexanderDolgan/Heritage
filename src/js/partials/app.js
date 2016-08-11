@@ -1,4 +1,5 @@
 var main = function () {
+    //Toggle vis terms
     $('.terms__header').click(function () {
         $('.terms__content').toggleClass('hide');
 
@@ -7,12 +8,14 @@ var main = function () {
 
     });
 
+    //Toggle vis nav in small screen
     $('.sec-menu-btn').click(function () {
-        $('.site-header-top__nav').toggleClass('show');
+        $('.top-panel__nav').toggleClass('show');
 
     });
 };
 
+//Header slider
 $(document).ready(main);
 
 var slides = document.querySelectorAll('#slides .slides__item');

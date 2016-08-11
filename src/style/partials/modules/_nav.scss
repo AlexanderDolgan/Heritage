@@ -1,27 +1,33 @@
-.ham-btn {
-  &:active,
-  &:focus {
-    outline: none;
-  }
-  &__title {
-    color: $white;
-  }
-}
-
-.site-header-top {
-  &__nav {
-    //display: none;
-  }
-}
-
 .hor-nav {
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
+  &__item {
+    display: block;
+
+  }
   &__anchor {
     display: block;
-    color: $white;
-    padding: 10px;
-    background-color: red;
+    padding: 5px 10px;
+  }
+}
+
+@include susy-breakpoint($b-small, 12) {
+  .hor-nav {
+    &__anchor {
+      padding: .5em;
+    }
+    &__anchor {
+      color: $secondary-color;
+    }
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  .hor-nav {
+    text-align: right;
+    &__item {
+      display: inline-block;
+    }
   }
 }
 

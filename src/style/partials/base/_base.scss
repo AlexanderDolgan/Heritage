@@ -24,8 +24,7 @@ a {
   color: $primary-color;
   &:hover,
   &:active,
-  &:focus,
-  &:visited {
+  &:focus {
     color: darken($primary-color, 15%);
     text-decoration: underline;
   }
@@ -87,7 +86,6 @@ input[type="email"] {
   border-bottom: 1px solid $primary-color;
   background-color: $light-gray;
   &:active, &:focus {
-    border: none;
     background-color: $white;
   }
 }
@@ -98,7 +96,6 @@ textarea {
   border-bottom: 1px solid $primary-color;
   background-color: $light-gray;
   &:active, &:focus {
-    border: none;
     background-color: $white;
   }
 }

@@ -30,10 +30,10 @@ $body-font-color: $black;
 // Media q breakpoints
 
 $b-small: 0;
-$b-medium: 640px;
-$b-large: 1024px;
-$b-xlarge: 1200px;
-$b-xxlarge: 1440px;
+$b-medium: 39.9375em;
+$b-large: 64em;
+$b-xlarge: 75em;
+$b-xxlarge: 90em;
 
 $b-small-only: 0 639px;
 $b-medium-only: 640px 1023px;
@@ -41,7 +41,7 @@ $b-large-only: 1024px 1199px;
 $b-xlarge-only: 1200px 1440px;
 
 //container width
-$container-width: 62.5em;
+$container-width: 64em;
 
 //Typography
 

@@ -1,21 +1,20 @@
 //Site header
-header#site-header
+header#site-header.box-shadow
 	//site header top
-	section.top-wrapper.top-wrapper
-		.site-header-top
-			.site-header-top__ham-btn
-				button(type="button" class="sec-menu-btn")
-					.ham-btn__title
-						span.fi-list  Sections
+	section.top-panel
+		.top-panel__ham-btn
+			button(type="button" class="sec-menu-btn")
+				.ham-btn__title
+					span.fi-list  Sections
 
 		//small logo
-		.site-header-top__s-logo
+		.top-panel__s-logo
 			a(href="index.html")
 				img.s-logo__img(src="../img/assets/logo-color.svg")
 
 
 		//header navigation
-		nav.site-header-top__nav
+		nav.top-panel__nav
 			// horisontal menu
 			ul.hor-nav
 				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']

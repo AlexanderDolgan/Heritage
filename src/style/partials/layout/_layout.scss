@@ -6,6 +6,7 @@
 #site-header {
   @include container();
   position: relative;
+  z-index: 999;
 }
 
 #site-main {

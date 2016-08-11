@@ -1,19 +1,37 @@
-.top-wrapper {
-  padding: 1em 0;
-  @include container();
+//top header navigation section
+.top-panel {
+  padding: .75em;
   &__black {
     background-color: $dark-black;
+  }
+  &__s-logo {
+    display: none;
+    position: relative;
+  }
+  &__nav {
+    display: none;
+  }
+}
+
+//hamburger menu btn
+.ham-btn {
+  &:active,
+  &:focus {
+    outline: none;
   }
 }
 
 @include susy-breakpoint($b-medium, 12) {
-  .site-header-top {
+  .top-panel {
     @include container($container-width);
     &__s-logo {
+      display: block;
       @include span(3);
+      max-width: 200px;
     }
     &__nav {
       @include span(9 last);
+      display: block;
       text-align: right;
     }
     &__ham-btn {
@@ -21,91 +39,3 @@
     }
   }
 }
-
-//////
-//
-//
-//.header-top-bar {
-//  display: flex;
-//  width: 100%;
-//  text-align: center;
-//  box-shadow: 0 0 10px rgba(0,0,0,.4);
-//  &__nav {
-//    margin: auto;
-//  }
-//}
-//
-//
-//
-////index top bar
-//.top-bar-black {
-//  background-color: rgba(0, 0, 0, 1);
-//}
-//
-//.header-top__s-logo {
-//  display: none;
-//}
-//
-//@include susy-breakpoint($b-small, 12) {
-//
-//  .header-top-bar {
-//    position: absolute;
-//    z-index: 4;
-//    background-color: $dark-black;
-//    &__nav {
-//      display: none;
-//      padding: 3em 1em 2em 1em;
-//
-//    }
-//    &__sec-menu {
-//      display: block;
-//      position: absolute;
-//      z-index: 4;
-//    }
-//  }
-//}
-//
-//// Medium size
-//@include susy-breakpoint($b-medium, 12) {
-//  .header-top-bar {
-//    background-color: $white;
-//  }
-//  .pos-relative{
-//    position: relative;
-//  }
-//  .header-top__s-logo{
-//    display: block;
-//    margin: auto;
-//    margin-left: span(1);
-//  }
-//  .s-logo {
-//    &__img {
-//      max-width: 175px;
-//      margin: auto;
-//    }
-//  }
-//
-//  .header-top-bar {
-//    display: flex;
-//    z-index: 4;
-//
-//    &__nav {
-//      display: block;
-//      padding: 1em;
-//    }
-//    &__sec-menu {
-//      display: none;
-//    }
-//  }
-//  .top-bar-black {
-//    background-color: rgba(0, 0, 0, .7);
-//  }
-//}
-//
-//@include susy-breakpoint($b-large, 12) {
-//  .header-hero {
-//    &__logo {
-//      width: span(6);
-//    }
-//  }
-//}
