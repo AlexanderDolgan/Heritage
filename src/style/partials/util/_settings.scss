@@ -35,8 +35,8 @@ $b-large: 64em;
 $b-xlarge: 75em;
 $b-xxlarge: 90em;
 
-$b-small-only: 0 639px;
-$b-medium-only: 640px 1023px;
+$b-small-only: 0 39.9375em;
+$b-medium-only: 39.9375em 64em;
 $b-large-only: 1024px 1199px;
 $b-xlarge-only: 1200px 1440px;
 
@@ -52,3 +52,9 @@ $header-font-family: $global-font-family;
 $header-font-weight: 400;
 $header-color: $body-font-color;
 $header-lineheight: 1.4;
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}

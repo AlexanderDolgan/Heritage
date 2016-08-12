@@ -10,18 +10,16 @@
 
 .article__content {
   text-align: justify;
-}
-
-.content__list {
-  li {
-    margin-bottom: 1.5em;
-    &::before {
-      content: "∙ ";
-      font-weight: 700;
+  ul {
+    li {
+      margin-bottom: 1.5em;
+      &::before {
+        content: "∙ ";
+        font-weight: 700;
+      }
     }
   }
 }
-
 
 @include susy-breakpoint($b-small, 12) {
 
@@ -33,8 +31,7 @@
 
 @include susy-breakpoint($b-large, 12) {
   .article-side {
-    @include span(5);
-    @include push(6);
-    max-width: 600px;
+    @include span(last 5);
+    margin-right: span(1);
   }
 }

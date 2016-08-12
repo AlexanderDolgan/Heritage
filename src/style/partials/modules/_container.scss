@@ -1,31 +1,40 @@
 //content block
-.content-block {
-  @include container();
+.container {
+  @include container($container-width);
   position: relative;
   overflow: hidden;
-  padding: 1.5em 0;
+  padding: 1em;
+  background-color: $white;
+}
+
+.container-fluid {
+  @extend .container;
+  @include container();
 }
 
 @include susy-breakpoint($b-small, 12) {
-  //content-block article
-  .content-block {
+  //content article
+  .container {
     &__bgimg {
       display: none;
     }
-  }
-  .content-block__article {
-    padding: 2em 1em;
   }
 }
 
 @include susy-breakpoint($b-medium, 12) {
 
-  .content-block__article {
-    padding: 3em 3em;
+  .container__article {
+    padding: 3em;
   }
 
   //main content bg contacts page
-  .adress-block-wrapper {
+  .adress-bg {
+    background-image: url("../img/assets/contacts_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .investors-bg {
     background-image: url("../img/assets/contacts_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,12 +43,8 @@
 
 @include susy-breakpoint($b-large, 12) {
 
-  //content-block article
-  .content-block {
-    text-align: justify;
-    &__article {
-      padding: 5em 1em;
-    }
+  //content article
+  .container {
     &__bgimg {
       display: block;
       position: absolute;

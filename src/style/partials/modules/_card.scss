@@ -1,0 +1,11 @@
+.card {
+
+}
+
+.card-small {
+  @include span(4);
+}
+
+.card-large {
+  @include span(last 8);
+}

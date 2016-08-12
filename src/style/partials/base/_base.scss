@@ -10,6 +10,12 @@ body {
   font-smooth: $font-smooth;
 }
 
+main {
+  @include container();
+  padding: 1.5em 0;
+  position: relative;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -105,4 +111,22 @@ button {
   padding: 10px 25px;
   background-color: transparent;
   text-transform: uppercase;
+}
+
+@include susy-breakpoint($b-small, 12) {
+  article {
+    padding: 2em 1em;
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  article {
+    padding: 3em;
+  }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  article {
+    padding: 5em 1em;
+  }
 }

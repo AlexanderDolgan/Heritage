@@ -1,5 +1,5 @@
 //footer
-.footer-block {
+.footer {
   @include container();
   padding: 1em 1em;
   background-color: $dark-black;
@@ -42,12 +42,12 @@
 }
 
 @include susy-breakpoint($b-medium, 12) {
-  .footer-block {
+  .footer {
     @include container();
     padding: 3em 1.5em;
   }
 
-  .footer-block__nav {
+  .footer__nav {
     display: none;
   }
 
@@ -70,19 +70,19 @@
     }
   }
 
-  .footer-block__nav {
+  .footer__nav {
     @include span(3);
   }
 
-  .footer-block__office-address {
+  .footer__office-address {
     @include span(9 last);
   }
 
-  .footer-block {
+  .footer {
     padding: 3em span(1);
   }
 
-  .footer-block__nav {
+  .footer__nav {
     display: block;
     @include span(3);
   }

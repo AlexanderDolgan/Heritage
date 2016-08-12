@@ -1,4 +1,4 @@
-.adress-block {
+.adress {
   background-color: $white;
   display: flex;
   align-items: center;
@@ -45,10 +45,9 @@
 
 @include susy-breakpoint($b-medium, 12) {
 
-  .adress-block {
-    @include container(62.5em);
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+  .adress {
+    @include container($container-width);
+    margin-bottom: 1em;
     &__header {
       margin: 1.5em 0;
     }
