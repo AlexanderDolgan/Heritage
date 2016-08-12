@@ -26,12 +26,13 @@
 }
 
 @include susy-breakpoint($b-medium, 12) {
+  .container__article {
+    padding: 3em;
+  }
 
 }
 
 @include susy-breakpoint($b-large, 12) {
   .article-side {
-    @include span(last 5);
-    margin-right: span(1);
   }
 }

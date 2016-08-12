@@ -12,7 +12,6 @@ body {
 
 main {
   @include container();
-  padding: 1.5em 0;
   position: relative;
 }
 
@@ -115,7 +114,7 @@ button {
 
 @include susy-breakpoint($b-small, 12) {
   article {
-    padding: 2em 1em;
+    padding: 0 1em;
   }
 }
 
@@ -126,7 +125,4 @@ button {
 }
 
 @include susy-breakpoint($b-large, 12) {
-  article {
-    padding: 5em 1em;
-  }
 }

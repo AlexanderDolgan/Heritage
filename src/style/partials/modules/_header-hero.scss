@@ -36,7 +36,7 @@
 
   .header-hero {
     &__logo {
-      @include span(10);
+      @include span(last 10);
     }
     &__slider {
       display: none;
@@ -50,7 +50,7 @@
   //header hero
   .header-hero {
     &__logo {
-      width: span(6);
+      width: span(last 5);
     }
     &__slider {
       display: block;
@@ -64,7 +64,7 @@
 @include susy-breakpoint($b-large, 12) {
   .header-hero {
     &__logo {
-      width: span(5);
+      width: span(last 5);
     }
   }
 }
