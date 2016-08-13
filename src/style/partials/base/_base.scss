@@ -83,6 +83,27 @@ hgroup {
   margin: 1.5em 0;
 }
 
+//Bloquote
+blockquote {
+  background: #f9f9f9;
+  border-left: 3px solid $primary-color;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: $primary-color;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.2em;
+}
+
+blockquote p {
+  display: inline;
+}
 
 input[type="text"],
 input[type="email"] {

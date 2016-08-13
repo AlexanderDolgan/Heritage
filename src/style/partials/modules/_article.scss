@@ -34,5 +34,7 @@
 
 @include susy-breakpoint($b-large, 12) {
   .article-side {
+    @include span(5);
+    @include push(6);
   }
 }
