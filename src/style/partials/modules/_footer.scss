@@ -1,10 +1,4 @@
 //footer
-.footer {
-  @include container();
-  padding: 1em 1em;
-  background-color: $dark-black;
-  color: $medium-gray;
-}
 
 .footer-header {
   color: $medium-gray;
@@ -42,10 +36,6 @@
 }
 
 @include susy-breakpoint($b-medium, 12) {
-  .footer {
-    @include container();
-    padding: 3em 1.5em;
-  }
 
   .footer__nav {
     display: none;
@@ -76,10 +66,6 @@
 
   .footer__office-address {
     @include span(9 last);
-  }
-
-  .footer {
-    padding: 3em span(1);
   }
 
   .footer__nav {

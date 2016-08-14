@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46bc8c5-e925-4614-acdd-95e24ae4c0b1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/partials/modules/_s-logo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/partials/modules/_top-panel.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/contacts.html" afterPath="$PROJECT_DIR$/build/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/investors.html" afterPath="$PROJECT_DIR$/build/investors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css" afterPath="$PROJECT_DIR$/build/style/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/style/main.min.css.map" afterPath="$PROJECT_DIR$/build/style/main.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/contacts.jade" afterPath="$PROJECT_DIR$/src/jade/contacts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/index.jade" afterPath="$PROJECT_DIR$/src/jade/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/investors.jade" afterPath="$PROJECT_DIR$/src/jade/investors.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/footer.jade" afterPath="$PROJECT_DIR$/src/jade/partials/footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/header-index.jade" afterPath="$PROJECT_DIR$/src/jade/partials/header-index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main-investors.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main-investors.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/base/_base.scss" afterPath="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_article.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_article.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_card.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_card.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/partials/main.jade" afterPath="$PROJECT_DIR$/src/jade/partials/main.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/layout/_layout.scss" afterPath="$PROJECT_DIR$/src/style/partials/layout/_layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_footer.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_header.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/modules/_index.scss" afterPath="$PROJECT_DIR$/src/style/partials/modules/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/partials/states/_states.scss" afterPath="$PROJECT_DIR$/src/style/partials/states/_states.scss" />
     </list>
     <ignored path="Heritage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +45,101 @@
     <splitter split-orientation="horizontal" split-proportion="0.4806139">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main-investors.jade" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/jade/partials/main-investors.jade">
+          <file leaf-file-name="main.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/partials/main.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+                <state relative-caret-position="15">
+                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main-contacts.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contacts.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/contacts.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="investors.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/investors.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/partials/header.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header-index.jade" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/jade/partials/header-index.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_s-logo.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_s-logo.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.jade" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jade/partials/footer.jade">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -46,14 +149,62 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-                  <folding>
-                    <marker date="1471071006000" expanded="true" signature="224:253" ph="{...}" />
-                  </folding>
+                <state relative-caret-position="405">
+                  <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_layout.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="74">
+                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_var.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/util/_var.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_mixin.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/util/_mixin.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_states.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/states/_states.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -61,58 +212,38 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="167">
-                  <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_header-hero.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header-hero.scss">
+          <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_nav.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_container.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_container.scss">
+          <file leaf-file-name="_top-panel.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_top-panel.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_adress.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_adress.scss">
+          <file leaf-file-name="_index.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_card.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_card.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_article.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_article.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="16" column="15" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="15" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -142,11 +273,12 @@
       </selected-nodes>
     </layout>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/templates/header.html" />
-        <option value="$PROJECT_DIR$/src/templates/header_index.html" />
         <option value="$PROJECT_DIR$/src/templates/footer.html" />
         <option value="$PROJECT_DIR$/src/style/partials/app.scss" />
         <option value="$PROJECT_DIR$/src/templates/investment-content.html" />
@@ -159,43 +291,45 @@
         <option value="$PROJECT_DIR$/src/style/partials/layout/_m-query.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/layout/_index.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/states/_index.scss" />
-        <option value="$PROJECT_DIR$/src/jade/index.jade" />
         <option value="$PROJECT_DIR$/bower_components/foundation-sites/scss/settings/_settings.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_modules.scss" />
-        <option value="$PROJECT_DIR$/src/jade/contacts.jade" />
         <option value="$PROJECT_DIR$/src/jade/partials/head.jade" />
-        <option value="$PROJECT_DIR$/src/style/partials/modules/_footer.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_form" />
         <option value="$PROJECT_DIR$/src/style/partials/states/_m-query.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_form.scss" />
         <option value="$PROJECT_DIR$/src/js/partials/app.js" />
-        <option value="$PROJECT_DIR$/src/style/partials/modules/_header.scss" />
         <option value="$PROJECT_DIR$/src/jade/partials/header.jade" />
-        <option value="$PROJECT_DIR$/src/jade/partials/header-index.jade" />
-        <option value="$PROJECT_DIR$/src/style/partials/states/_states.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_nav.scss" />
-        <option value="$PROJECT_DIR$/src/jade/investors.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_adress-block.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_content-block.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_content.scss" />
-        <option value="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/foundation-icons.scss" />
-        <option value="$PROJECT_DIR$/src/jade/partials/footer.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/layout/_grid.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/util/_mixin.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/layout/_layout.scss" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/modules/_index.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_adress.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_container.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_header-hero.scss" />
-        <option value="$PROJECT_DIR$/src/jade/partials/main.jade" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_article.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/modules/_card.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/jade/partials/main-investors.jade" />
+        <option value="$PROJECT_DIR$/src/jade/partials/main-contacts.jade" />
+        <option value="$PROJECT_DIR$/src/jade/partials/main.jade" />
+        <option value="$PROJECT_DIR$/src/style/partials/util/_settings.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/states/_states.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/modules/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/jade/investors.jade" />
+        <option value="$PROJECT_DIR$/src/jade/contacts.jade" />
+        <option value="$PROJECT_DIR$/src/jade/index.jade" />
+        <option value="$PROJECT_DIR$/src/jade/partials/footer.jade" />
+        <option value="$PROJECT_DIR$/src/style/partials/layout/_layout.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/modules/_top-panel.scss" />
+        <option value="$PROJECT_DIR$/src/jade/partials/header-index.jade" />
+        <option value="$PROJECT_DIR$/src/style/partials/modules/_s-logo.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/modules/_header.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/modules/_index.scss" />
       </list>
     </option>
   </component>
@@ -276,9 +410,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="675" />
+    <option name="y" value="46" />
+    <option name="width" value="1920" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -308,11 +442,226 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="states" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jade" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Heritage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jade" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +669,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/base/_base.scss&#10;baw&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/node_modules/easy-extender/node_modules/lodash/internal/baseWhile.js&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_header-hero.scss&#10;head&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_header.scss&#10;ar&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_article.scss&#10;sett&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;hea&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/jade/partials/header-index.jade&#10;mix&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_mixin.scss&#10;util&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/bower_components/foundation-sites/scss/util/_util.scss&#10;var&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_var.scss&#10;ыуее&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;a&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;form&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_form.scss&#10;adress&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_adress-block.scss&#10;content&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_content-block.scss&#10;lay&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/layout/_layout.scss&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_nav.scss&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_footer.scss&#10;se&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;install node&#9;null&#9;null&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style_old/partials/_settings.scss&#10;states&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/states/_states.scss&#10;modules&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;modul&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;ut&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_utilities.scss&#10;app&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;large&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;med&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/medium.scss&#10;small&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/small.scss&#10;mai&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;main.js&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/main.js&#10;foundation-icons&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/foundation-icons.scss&#10;ma&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;_setting&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;larg&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;_settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;gulp&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_footer.scss&#10;sett&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;lay&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/layout/_layout.scss&#10;base&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/base/_base.scss&#10;baw&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/node_modules/easy-extender/node_modules/lodash/internal/baseWhile.js&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_header-hero.scss&#10;head&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_header.scss&#10;ar&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_article.scss&#10;hea&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/jade/partials/header-index.jade&#10;mix&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_mixin.scss&#10;util&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/bower_components/foundation-sites/scss/util/_util.scss&#10;var&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_var.scss&#10;ыуее&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;a&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;form&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_form.scss&#10;adress&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_adress-block.scss&#10;content&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_content-block.scss&#10;nav&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_nav.scss&#10;se&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/util/_settings.scss&#10;install node&#9;null&#9;null&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style_old/partials/_settings.scss&#10;states&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/states/_states.scss&#10;modules&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;modul&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/modules/_modules.scss&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;ut&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_utilities.scss&#10;app&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/partials/app.js&#10;large&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;med&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/medium.scss&#10;small&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/small.scss&#10;mai&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;main.js&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/js/main.js&#10;foundation-icons&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/foundation-icons.scss&#10;ma&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/main.scss&#10;_setting&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;larg&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/large.scss&#10;_settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/Heritage/src/style/partials/_settings.scss&#10;gulp&#9;null&#9;null" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
@@ -416,11 +765,12 @@
       <workItem from="1471013638640" duration="2131000" />
       <workItem from="1471032188493" duration="166000" />
       <workItem from="1471041662149" duration="3918000" />
+      <workItem from="1471181762640" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30077000" />
+    <option name="totallyTimeSpent" value="33779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,18 +782,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="675" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="46" width="1920" height="928" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17944622" sideWeight="0.43786126" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29885057" sideWeight="0.478125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2983051" sideWeight="0.478125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1229135" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17851374" sideWeight="0.49787235" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13582209" sideWeight="0.6" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13541667" sideWeight="0.6" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10572917" sideWeight="0.4" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2484375" sideWeight="0.50706035" order="3" side_tool="true" content_ui="tabs" />
@@ -453,7 +804,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32594937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -498,20 +848,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower_components/foundation-sites/scss/_foundation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates_old/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/states/_m-query.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -650,48 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/states/_states.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/contacts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/investors.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/base/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -706,24 +993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -734,45 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/header-index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -784,24 +1022,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/easy-extender/node_modules/lodash/internal/baseWhile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header-hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
+        <state relative-caret-position="990">
           <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding />
         </state>
@@ -809,32 +1039,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="360">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/main.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_article.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="240">
           <caret line="16" column="15" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -847,20 +1061,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-investors.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <marker date="1471071006000" expanded="true" signature="224:253" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-investors.jade">
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/main-contacts.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/main.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/states/_states.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/util/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/investors.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/contacts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/layout/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_s-logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/partials/header-index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/modules/_top-panel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>

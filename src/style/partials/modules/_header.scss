@@ -1,16 +1,5 @@
-//top header navigation section
-.top-panel {
-  padding: .75em;
-  &__black {
-    background-color: $dark-black;
-  }
-  &__s-logo {
-    display: none;
-    position: relative;
-  }
-  &__nav {
-    display: none;
-  }
+.nav {
+  display: none;
 }
 
 //hamburger menu btn
@@ -23,7 +12,6 @@
 
 @include susy-breakpoint($b-medium, 12) {
   .top-panel {
-    @include container($container-width);
     &__s-logo {
       display: block;
       @include span(3);

@@ -1,18 +1,19 @@
-#wrapper {
-  margin: 0;
-  padding: 0;
-}
-
 #site-header {
-  @include container();
-  position: relative;
+  padding-left: 1em;
+  padding-right: 1em;
   z-index: 999;
 }
 
 #site-main {
-  @include container();
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #site-footer {
-  @include container();
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.l-container-fixed {
+  @include  container($container-width);
 }
