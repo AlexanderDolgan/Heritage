@@ -1,0 +1,20 @@
+.is-black {
+  background-color: $dark-black;
+}
+
+.is-text-white {
+  color: $white;
+}
+
+.is-hide {
+  display: none;
+}
+
+@include susy-breakpoint($b-small, 12) {
+}
+
+@include susy-breakpoint($b-small, 12) {
+}
+
+@include susy-breakpoint($b-small, 12) {
+}

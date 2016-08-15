@@ -1,0 +1,10 @@
+.text-logo {
+
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  .text-logo {
+    display: block;
+    @include span(4);
+  }
+}

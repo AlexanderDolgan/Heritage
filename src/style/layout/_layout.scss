@@ -1,0 +1,14 @@
+#wrapper {
+  @include container();
+}
+
+.l-top-panel,
+.l-main,
+.l-footer {
+  @include container();
+  padding: 0 .75em;
+}
+
+.l-hero {
+  @include container(auto);
+}
