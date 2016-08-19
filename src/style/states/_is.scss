@@ -2,6 +2,14 @@
   background-color: $dark-black;
 }
 
+.is-black-trans {
+  background-color: rgba(0,0,0,1);
+}
+
+.is-white {
+  background-color: $white;
+}
+
 .is-text-white {
   color: $white;
 }
@@ -10,10 +18,23 @@
   display: none;
 }
 
-@include susy-breakpoint($b-small, 12) {
+.is-show {
+  display: block;
+}
+
+.is-showing {
+  opacity: 1;
+  z-index: 2;
 }
 
 @include susy-breakpoint($b-small, 12) {
+
+}
+
+@include susy-breakpoint($b-small, 12) {
+  .is-black-trans {
+    background-color: rgba(0,0,0,.65);
+  }
 }
 
 @include susy-breakpoint($b-small, 12) {

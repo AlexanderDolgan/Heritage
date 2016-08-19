@@ -1,0 +1,38 @@
+.nav {
+  &__link {
+    display: block;
+    &:hover {
+      color: darken($primary-color, 15%);
+      text-decoration: underline;
+    }
+  }
+}
+
+.top-nav {
+  display: none;
+  text-align: center;
+  &__link {
+    padding: .5em 1em;
+    &:last-child {
+    }
+  }
+}
+
+@include susy-breakpoint($b-medium, 12) {
+  .top-nav {
+    height: 5em;
+    display: block;
+    @include span(last 9);
+    text-align: right;
+    &__link {
+      display: inline-block;
+
+      vertical-align: middle;
+    }
+    .centerer {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+}

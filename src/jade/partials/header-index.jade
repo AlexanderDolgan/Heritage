@@ -1,18 +1,19 @@
 //Site header
-header#site-header.is-black
+header#site-header.is-black-trans
 	//top-panel
 	.l-top-panel
 		//hamburger btn for mobile
 		.ham-btn
-			button(type="button" class="sec-menu-btn")
+			button(type="button").sec-menu-btn
 				span.fi-list.is-text-white  Sections
 
 		//logo
-		.text-logo.is-hide
+		.text-logo
 			a(href="index.html").text-logo__link
 				img.text-logo__img(src="../img/assets/logo-white.svg")
 
 		//navigation
-		nav.nav
+		nav.nav.top-nav
+			span.centerer
 			each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
-				a.nav__link(href= val + ".html")= val
+				a.nav__link.top-nav__link.is-text-white(href= val + ".html")= val

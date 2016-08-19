@@ -1,21 +1,19 @@
 //Site header
-header#site-header.box-shadow
-	//site header top
-	section.top-panel
-		.top-panel__ham-btn
-			button(type="button" class="sec-menu-btn")
-				.ham-btn__title
-					span.fi-list  Sections
+header#site-header.is-white
+	//top-panel
+	.l-top-panel
+		//hamburger btn for mobile
+		.ham-btn
+			button(type="button").sec-menu-btn
+				span.fi-list  Sections
 
-		//small logo
-		.top-panel__s-logo
-			a(href="index.html")
-				img.s-logo__img(src="../img/assets/logo-color.svg")
+		//logo
+		.text-logo
+			a(href="index.html").text-logo__link
+				img.text-logo__img(src="../img/assets/logo-color.svg")
 
-
-		//header navigation
-		nav.top-panel__nav
-			// horisontal menu
-			ul.hor-nav
-				each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
-					li.hor-nav__item: a.hor-nav__anchor(href= val + ".html")= val
+		//navigation
+		nav.nav.top-nav
+			span.centerer
+			each val in ['Home', 'Investment', 'Structure', 'Investors', 'Contacts']
+				a.nav__link.top-nav__link(href= val + ".html")= val

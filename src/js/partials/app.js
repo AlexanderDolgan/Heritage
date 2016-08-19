@@ -8,9 +8,9 @@ var main = function () {
 
     });
 
-    //Toggle vis nav in small screen
+    //Toggle vis nav on small screen
     $('.sec-menu-btn').click(function () {
-        $('.top-panel__nav').toggleClass('show');
+        $('.top-nav').toggleClass('is-show');
 
     });
 };
@@ -25,7 +25,7 @@ var slideInterval = setInterval(nextSlide, 5000);
 function nextSlide() {
     slides[currentSlide].className = 'slides__item';
     currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].className = 'slides__item showing';
+    slides[currentSlide].className = 'slides__item is-showing';
 }
 
 $(document).ready(nextSlide);
