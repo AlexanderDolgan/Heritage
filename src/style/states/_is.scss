@@ -2,6 +2,10 @@
   background-color: $dark-black;
 }
 
+.is-accent {
+  font-weight: 700;
+}
+
 .is-black-trans {
   background-color: rgba(0,0,0,1);
 }
@@ -27,15 +31,13 @@
   z-index: 2;
 }
 
+
 @include susy-breakpoint($b-small, 12) {
 
 }
 
-@include susy-breakpoint($b-small, 12) {
+@include susy-breakpoint($b-medium, 12) {
   .is-black-trans {
     background-color: rgba(0,0,0,.65);
   }
-}
-
-@include susy-breakpoint($b-small, 12) {
 }

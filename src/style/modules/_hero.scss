@@ -52,7 +52,7 @@
 @include susy-breakpoint($b-medium, 12) {
   .hero__title {
     & > h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       margin-top: -2.5rem;
       margin-bottom: 0.5rem;
     }
@@ -70,5 +70,11 @@
 
   .hero__slider {
     display: block;
+  }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  .hero__title > h1 {
+    font-size: 4rem;
   }
 }

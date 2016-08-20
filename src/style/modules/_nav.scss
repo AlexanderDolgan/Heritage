@@ -18,6 +18,10 @@
   }
 }
 
+.footer-nav {
+  display: none;
+}
+
 @include susy-breakpoint($b-medium, 12) {
   .top-nav {
     height: 5em;
@@ -35,4 +39,26 @@
       vertical-align: middle;
     }
   }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  .footer-nav {
+    display: block;
+    @include span(3);
+    &__header {
+      color: $light-gray;
+      &::after {
+        content: '';
+        display: block;
+        margin-top: .5em;
+        width: 50%;
+        height: .05em;
+        background-color: $primary-color;
+      }
+    }
+    &__link {
+      color: $light-gray;
+    }
+  }
+
 }
