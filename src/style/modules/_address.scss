@@ -10,7 +10,6 @@
 
 //footer address
 .address-wrapper {
-  @include span(last 9);
   &__header {
     color: $white;
     &::after {
@@ -25,12 +24,28 @@
 }
 
 .footer-address {
-  @include span(4);
   &__link{
     color: $light-gray;
   }
-  &:last-child {
-    @include span(last 4);
+}
+
+@include susy-breakpoint($b-small, 12) {
+  .footer-address{
+    margin-top: 1.5em;
   }
 }
 
+@include susy-breakpoint($b-medium, 12) {
+  .footer-address {
+    @include span(4);
+    &:last-child {
+      @include span(last 4);
+    }
+  }
+}
+
+@include susy-breakpoint($b-large, 12) {
+  .address-wrapper {
+    @include span(9 last);
+  }
+}
