@@ -1,9 +1,9 @@
 var main = function () {
     //Toggle vis terms
     $('.terms__header').click(function () {
-        $('.terms__content').toggleClass('hide');
+        $('.terms__content').toggleClass('is-hide');
 
-        var tag = $('#terms__content');
+        var tag = $('.terms__header');
         $('html,body').animate({scrollTop: tag.offset().top}, 'slow');
 
     });

@@ -1,3 +1,5 @@
+@include normalize();
+
 *, *+*, *::before, *::after {
   box-sizing: border-box;
 }
@@ -72,6 +74,10 @@ blockquote p {
   display: inline;
 }
 //end Bloquote
+
+dd {
+  margin: 0;
+}
 
 input[type="text"],
 input[type="email"] {

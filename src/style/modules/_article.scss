@@ -1,12 +1,21 @@
-.article-side {
-  padding: 2.5em 1.5em;
-  background-color: $white;
+.article {
+  padding: 2.5em 0;
   &__content {
     text-align: justify;
   }
+
 }
 
-.article-side__hgroup::after {
+.left-col {
+  @include span(6);
+}
+
+.right-col {
+  @include span(6 last);
+}
+
+
+.article__hgroup::after {
   content: '';
   display: block;
   width: 100%;
@@ -15,10 +24,11 @@
 }
 
 .hgroup-h1 {
+  text-align: center;
   font-weight: 700;
 }
 
-.article-side__content {
+.article__content {
   ul {
     padding: 0;
     li {
@@ -28,17 +38,10 @@
 }
 
 @include susy-breakpoint($b-medium, 12){
-  .article-side {
-    @include span(10);
-    @include push(1);
-  }
+
 }
 
 @include susy-breakpoint($b-large, 12) {
-  .article-side {
-    padding: 2.5em;
-    @include span(5);
-    @include push(6);
-  }
+
 }
 
