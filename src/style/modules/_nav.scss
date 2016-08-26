@@ -22,7 +22,7 @@
   display: none;
 }
 
-@include susy-breakpoint($b-medium, 12) {
+@include susy-breakpoint($b-medium) {
   .top-nav {
     height: 5em;
     display: block;
@@ -41,7 +41,7 @@
   }
 }
 
-@include susy-breakpoint($b-large, 12) {
+@include susy-breakpoint($b-large) {
   .footer-nav {
     display: block;
     @include span(3);

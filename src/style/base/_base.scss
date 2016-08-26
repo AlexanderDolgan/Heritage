@@ -1,4 +1,4 @@
-@include normalize();
+//@include normalize();
 
 *, *+*, *::before, *::after {
   box-sizing: border-box;
@@ -10,6 +10,8 @@ body {
   line-height: $global-line-height;
   background-color: $body-background;
   -webkit-font-smoothing: $font-smooth;
+  margin: 0;
+  padding: 0;
 }
 
 img {

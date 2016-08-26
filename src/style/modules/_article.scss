@@ -1,24 +1,18 @@
 .article {
   padding: 2.5em 0;
+  @include susy-clearfix;
   &__content {
     text-align: justify;
+    margin-top: 1.5em;
+    @include susy-clearfix;
   }
-
 }
-
-.left-col {
-  @include span(6);
-}
-
-.right-col {
-  @include span(6 last);
-}
-
 
 .article__hgroup::after {
   content: '';
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  width: 50%;
   height: .15em;
   background-color: $primary-color;
 }
@@ -28,20 +22,29 @@
   font-weight: 700;
 }
 
-.article__content {
-  ul {
-    padding: 0;
-    li {
-      margin-top: 1.5em;
-    }
+.dl-index {
+  font-size: .9em;
+  dt {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: 1.5em;
   }
 }
 
-@include susy-breakpoint($b-medium, 12){
 
+@include susy-breakpoint($b-medium){
+  .left-col {
+    @include span(4);
+    @include push(1.5);
+  }
+
+  .right-col {
+    @include span(4 last);
+    @include post(1.5);
+  }
 }
 
-@include susy-breakpoint($b-large, 12) {
+@include susy-breakpoint($b-large) {
 
 }
 

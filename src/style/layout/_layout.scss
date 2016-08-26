@@ -23,6 +23,16 @@
 #site-main {
   @include container();
   position: relative;
+  &::after {
+    content: '';
+    display: block;
+    height: 500px;
+    opacity: .5;
+    background-image: url("../img/assets/london_bg.jpg");
+    background-position: center bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
 }
 
 .l-footer {
